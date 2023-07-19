@@ -1,0 +1,883 @@
+Jul 14 08:46:18 10.71.57.0 u87492038 Connection from 10.71.57.0 port 32048 on 82.165.85.240 port 22
+Jul 14 08:46:19 10.71.57.0 u87492038 Accepted password for u87492038 from 10.71.57.0 port 32048 ssh2
+Jul 14 08:46:19 10.71.57.0 u87492038 Starting session: subsystem 'sftp' for u87492038 from 10.71.57.0 port 32048 id 0
+Jul 14 08:46:19 10.71.57.0 u87492038 session opened for local user u87492038 from [10.71.57.0]
+Jul 14 09:05:15 10.71.57.0 u87492038 Connection from 10.71.57.0 port 55324 on 82.165.85.240 port 22
+Jul 14 09:05:15 10.71.57.0 u87492038 Accepted password for u87492038 from 10.71.57.0 port 55324 ssh2
+Jul 14 09:05:15 10.71.57.0 u87492038 Connection from 10.71.57.0 port 55322 on 82.165.85.240 port 22
+Jul 14 09:05:15 10.71.57.0 u87492038 Accepted password for u87492038 from 10.71.57.0 port 55322 ssh2
+Jul 14 09:05:15 10.71.57.0 u87492038 Starting session: subsystem 'sftp' for u87492038 from 10.71.57.0 port 55324 id 0
+Jul 14 09:05:15 10.71.57.0 u87492038 Starting session: subsystem 'sftp' for u87492038 from 10.71.57.0 port 55322 id 0
+Jul 14 09:05:15 10.71.57.0 u87492038 session opened for local user u87492038 from [10.71.57.0]
+Jul 14 09:05:15 10.71.57.0 u87492038 session opened for local user u87492038 from [10.71.57.0]
+Jul 14 09:05:16 10.71.57.0 u87492038 open "/download/Photos_LL16_Palma.zip" flags READ mode 0666
+Jul 14 09:05:16 10.71.57.0 u87492038 open "/download/Bilder_CMB3_Bendinat.zip" flags READ mode 0666
+Jul 14 09:05:20 10.71.57.0 u87492038 close "/download/Bilder_CMB3_Bendinat.zip" bytes read 51384605 written 0
+Jul 14 09:05:20 10.71.57.0 u87492038 [10.71.57.0|get|4|51384605|0|0|0|2f646f776e6c6f61642f42696c6465725f434d42335f42656e64696e61742e7a6970|]
+Jul 14 09:05:20 10.71.57.0 u87492038 open "/download/CD8_Klaergrube.zip" flags READ mode 0666
+Jul 14 09:05:25 10.71.57.0 u87492038 close "/download/CD8_Klaergrube.zip" bytes read 61498402 written 0
+Jul 14 09:05:25 10.71.57.0 u87492038 [10.71.57.0|get|5|61498402|0|0|0|2f646f776e6c6f61642f4344385f4b6c61657267727562652e7a6970|]
+Jul 14 09:05:26 10.71.57.0 u87492038 open "/download/AL25_Terrazas.zip" flags READ mode 0666
+Jul 14 09:05:34 10.71.57.0 u87492038 close "/download/AL25_Terrazas.zip" bytes read 70922447 written 0
+Jul 14 09:05:34 10.71.57.0 u87492038 [10.71.57.0|get|8|70922447|0|0|0|2f646f776e6c6f61642f414c32355f54657272617a61732e7a6970|]
+Jul 14 09:05:34 10.71.57.0 u87492038 open "/download/CD8_Fotos_Instalacion_Suelo-Radiante-1.zip" flags READ mode 0666
+Jul 14 09:05:34 10.71.57.0 u87492038 close "/download/Photos_LL16_Palma.zip" bytes read 130827761 written 0
+Jul 14 09:05:34 10.71.57.0 u87492038 [10.71.57.0|get|18|130827761|0|0|0|2f646f776e6c6f61642f50686f746f735f4c4c31365f50616c6d612e7a6970|]
+Jul 14 09:05:47 10.71.57.0 u87492038 close "/download/CD8_Fotos_Instalacion_Suelo-Radiante-1.zip" bytes read 244691936 written 0
+Jul 14 09:05:47 10.71.57.0 u87492038 [10.71.57.0|get|13|244691936|0|0|0|2f646f776e6c6f61642f4344385f466f746f735f496e7374616c6163696f6e5f5375656c6f2d52616469616e74652d312e7a6970|]
+Jul 14 09:05:54 10.71.57.0 u87492038 remove name "/download/CD8_Fotos_Instalacion_Suelo-Radiante-1.zip"
+Jul 14 09:05:54 10.71.57.0 u87492038 [10.71.57.0|rm|0|0|0|0|0|2f646f776e6c6f61642f4344385f466f746f735f496e7374616c6163696f6e5f5375656c6f2d52616469616e74652d312e7a6970|]
+Jul 14 09:05:54 10.71.57.0 u87492038 remove name "/download/AL25_Terrazas.zip"
+Jul 14 09:05:54 10.71.57.0 u87492038 [10.71.57.0|rm|0|0|0|0|0|2f646f776e6c6f61642f414c32355f54657272617a61732e7a6970|]
+Jul 14 09:05:54 10.71.57.0 u87492038 remove name "/download/CD8_Klaergrube.zip"
+Jul 14 09:05:54 10.71.57.0 u87492038 [10.71.57.0|rm|0|0|0|0|0|2f646f776e6c6f61642f4344385f4b6c61657267727562652e7a6970|]
+Jul 14 09:05:54 10.71.57.0 u87492038 remove name "/download/Bilder_CMB3_Bendinat.zip"
+Jul 14 09:05:54 10.71.57.0 u87492038 [10.71.57.0|rm|0|0|0|0|0|2f646f776e6c6f61642f42696c6465725f434d42335f42656e64696e61742e7a6970|]
+Jul 14 09:05:54 10.71.57.0 u87492038 remove name "/download/Photos_LL16_Palma.zip"
+Jul 14 09:05:54 10.71.57.0 u87492038 [10.71.57.0|rm|0|0|0|0|0|2f646f776e6c6f61642f50686f746f735f4c4c31365f50616c6d612e7a6970|]
+Jul 14 09:05:54 10.71.57.0 u87492038 rmdir name "/download"
+Jul 14 09:05:54 10.71.57.0 u87492038 [10.71.57.0|rmdir|0|0|0|0|0|2f646f776e6c6f6164|]
+Jul 14 09:06:34 10.71.57.0 u87492038 session closed for local user u87492038 from [10.71.57.0]
+Jul 14 09:06:34 10.71.57.0 u87492038 Connection closed by 10.71.57.0 port 55324
+Jul 14 09:06:47 10.71.57.0 u87492038 session closed for local user u87492038 from [10.71.57.0]
+Jul 14 09:06:47 10.71.57.0 u87492038 Connection closed by 10.71.57.0 port 55322
+Jul 14 09:19:36 10.71.57.0 u87492038 session closed for local user u87492038 from [10.71.57.0]
+Jul 14 09:19:36 10.71.57.0 u87492038 Connection closed by 10.71.57.0 port 32048
+Jul 14 09:19:36 10.71.57.0 u87492038 Connection from 10.71.57.0 port 19342 on 82.165.85.240 port 22
+Jul 14 09:19:36 10.71.57.0 u87492038 Accepted password for u87492038 from 10.71.57.0 port 19342 ssh2
+Jul 14 09:19:36 10.71.57.0 u87492038 Starting session: subsystem 'sftp' for u87492038 from 10.71.57.0 port 19342 id 0
+Jul 14 09:19:36 10.71.57.0 u87492038 session opened for local user u87492038 from [10.71.57.0]
+Jul 14 09:22:29 10.71.57.0 u87492038 session closed for local user u87492038 from [10.71.57.0]
+Jul 14 09:22:29 10.71.57.0 u87492038 Connection closed by 10.71.57.0 port 19342
+Jul 14 09:22:29 10.71.57.0 u87492038 Connection from 10.71.57.0 port 22710 on 82.165.85.240 port 22
+Jul 14 09:22:29 10.71.57.0 u87492038 Accepted password for u87492038 from 10.71.57.0 port 22710 ssh2
+Jul 14 09:22:30 10.71.57.0 u87492038 Starting session: subsystem 'sftp' for u87492038 from 10.71.57.0 port 22710 id 0
+Jul 14 09:22:30 10.71.57.0 u87492038 session opened for local user u87492038 from [10.71.57.0]
+Jul 14 09:28:52 10.71.57.0 u87492038 Connection from 10.71.57.0 port 47560 on 82.165.85.240 port 22
+Jul 14 09:29:01 10.71.57.0 u87492038 Accepted password for u87492038 from 10.71.57.0 port 47560 ssh2
+Jul 14 09:29:01 10.71.57.0 u87492038 Starting session: subsystem 'sftp' for u87492038 from 10.71.57.0 port 47560 id 0
+Jul 14 09:29:01 10.71.57.0 u87492038 session opened for local user u87492038 from [10.71.57.0]
+Jul 14 09:31:32 10.71.57.0 u87492038 Connection from 10.71.57.0 port 48020 on 82.165.85.240 port 22
+Jul 14 09:31:32 10.71.57.0 u87492038 Accepted password for u87492038 from 10.71.57.0 port 48020 ssh2
+Jul 14 09:31:32 10.71.57.0 u87492038 Connection from 10.71.57.0 port 48022 on 82.165.85.240 port 22
+Jul 14 09:31:32 10.71.57.0 u87492038 Accepted password for u87492038 from 10.71.57.0 port 48022 ssh2
+Jul 14 09:31:32 10.71.57.0 u87492038 Starting session: subsystem 'sftp' for u87492038 from 10.71.57.0 port 48020 id 0
+Jul 14 09:31:32 10.71.57.0 u87492038 session opened for local user u87492038 from [10.71.57.0]
+Jul 14 09:31:32 10.71.57.0 u87492038 Starting session: subsystem 'sftp' for u87492038 from 10.71.57.0 port 48022 id 0
+Jul 14 09:31:32 10.71.57.0 u87492038 session opened for local user u87492038 from [10.71.57.0]
+Jul 14 09:31:32 10.71.57.0 u87492038 open "/.htaccess" flags READ mode 0666
+Jul 14 09:31:32 10.71.57.0 u87492038 open "/favicon.ico" flags READ mode 0666
+Jul 14 09:31:32 10.71.57.0 u87492038 close "/.htaccess" bytes read 2595 written 0
+Jul 14 09:31:32 10.71.57.0 u87492038 [10.71.57.0|get|0|2595|0|0|0|2f2e6874616363657373|]
+Jul 14 09:31:32 10.71.57.0 u87492038 open "/favicon.png" flags READ mode 0666
+Jul 14 09:31:32 10.71.57.0 u87492038 close "/favicon.ico" bytes read 173562 written 0
+Jul 14 09:31:32 10.71.57.0 u87492038 [10.71.57.0|get|0|173562|0|0|0|2f66617669636f6e2e69636f|]
+Jul 14 09:31:33 10.71.57.0 u87492038 close "/favicon.png" bytes read 3083 written 0
+Jul 14 09:31:33 10.71.57.0 u87492038 [10.71.57.0|get|1|3083|0|0|0|2f66617669636f6e2e706e67|]
+Jul 14 09:31:33 10.71.57.0 u87492038 open "/index.html" flags READ mode 0666
+Jul 14 09:31:33 10.71.57.0 u87492038 open "/robots.txt" flags READ mode 0666
+Jul 14 09:31:33 10.71.57.0 u87492038 close "/index.html" bytes read 15252 written 0
+Jul 14 09:31:33 10.71.57.0 u87492038 [10.71.57.0|get|0|15252|0|0|0|2f696e6465782e68746d6c|]
+Jul 14 09:31:33 10.71.57.0 u87492038 close "/robots.txt" bytes read 899 written 0
+Jul 14 09:31:33 10.71.57.0 u87492038 [10.71.57.0|get|0|899|0|0|0|2f726f626f74732e747874|]
+Jul 14 09:31:33 10.71.57.0 u87492038 Connection closed by 10.71.57.0 port 48020
+Jul 14 09:31:33 10.71.57.0 u87492038 session closed for local user u87492038 from [10.71.57.0]
+Jul 14 09:31:33 10.71.57.0 u87492038 open "/sitemap.xml" flags READ mode 0666
+Jul 14 09:31:33 10.71.57.0 u87492038 close "/sitemap.xml" bytes read 5365 written 0
+Jul 14 09:31:33 10.71.57.0 u87492038 [10.71.57.0|get|0|5365|0|0|0|2f736974656d61702e786d6c|]
+Jul 14 09:31:33 10.71.57.0 u87492038 Connection closed by 10.71.57.0 port 48022
+Jul 14 09:31:33 10.71.57.0 u87492038 session closed for local user u87492038 from [10.71.57.0]
+Jul 14 09:31:33 10.71.57.0 u87492038 Connection from 10.71.57.0 port 48030 on 82.165.85.240 port 22
+Jul 14 09:31:33 10.71.57.0 u87492038 Accepted password for u87492038 from 10.71.57.0 port 48030 ssh2
+Jul 14 09:31:33 10.71.57.0 u87492038 Starting session: subsystem 'sftp' for u87492038 from 10.71.57.0 port 48030 id 0
+Jul 14 09:31:34 10.71.57.0 u87492038 session opened for local user u87492038 from [10.71.57.0]
+Jul 14 09:31:33 10.71.57.0 u87492038 Connection from 10.71.57.0 port 48032 on 82.165.85.240 port 22
+Jul 14 09:31:34 10.71.57.0 u87492038 Accepted password for u87492038 from 10.71.57.0 port 48032 ssh2
+Jul 14 09:31:34 10.71.57.0 u87492038 Starting session: subsystem 'sftp' for u87492038 from 10.71.57.0 port 48032 id 0
+Jul 14 09:31:34 10.71.57.0 u87492038 open "/css/envivir.min.css" flags READ mode 0666
+Jul 14 09:31:34 10.71.57.0 u87492038 session opened for local user u87492038 from [10.71.57.0]
+Jul 14 09:31:34 10.71.57.0 u87492038 close "/css/envivir.min.css" bytes read 25226 written 0
+Jul 14 09:31:34 10.71.57.0 u87492038 [10.71.57.0|get|0|25226|0|0|0|2f6373732f656e76697669722e6d696e2e637373|]
+Jul 14 09:31:34 10.71.57.0 u87492038 open "/de/index.html" flags READ mode 0666
+Jul 14 09:31:34 10.71.57.0 u87492038 open "/de/kontakt/index.html" flags READ mode 0666
+Jul 14 09:31:34 10.71.57.0 u87492038 close "/de/index.html" bytes read 15698 written 0
+Jul 14 09:31:34 10.71.57.0 u87492038 [10.71.57.0|get|0|15698|0|0|0|2f64652f696e6465782e68746d6c|]
+Jul 14 09:31:34 10.71.57.0 u87492038 close "/de/kontakt/index.html" bytes read 7369 written 0
+Jul 14 09:31:34 10.71.57.0 u87492038 [10.71.57.0|get|0|7369|0|0|0|2f64652f6b6f6e74616b742f696e6465782e68746d6c|]
+Jul 14 09:31:34 10.71.57.0 u87492038 open "/de/leistungen/index.html" flags READ mode 0666
+Jul 14 09:31:35 10.71.57.0 u87492038 open "/de/leistungen/generalunternehmer-mallorca/index.html" flags READ mode 0666
+Jul 14 09:31:35 10.71.57.0 u87492038 close "/de/leistungen/index.html" bytes read 11107 written 0
+Jul 14 09:31:35 10.71.57.0 u87492038 [10.71.57.0|get|1|11107|0|0|0|2f64652f6c65697374756e67656e2f696e6465782e68746d6c|]
+Jul 14 09:31:35 10.71.57.0 u87492038 close "/de/leistungen/generalunternehmer-mallorca/index.html" bytes read 10962 written 0
+Jul 14 09:31:35 10.71.57.0 u87492038 [10.71.57.0|get|0|10962|0|0|0|2f64652f6c65697374756e67656e2f67656e6572616c756e7465726e65686d65722d6d616c6c6f7263612f696e6465782e68746d6c|]
+Jul 14 09:31:35 10.71.57.0 u87492038 open "/de/leistungen/renovierungen-mallorca/index.html" flags READ mode 0666
+Jul 14 09:31:35 10.71.57.0 u87492038 close "/de/leistungen/renovierungen-mallorca/index.html" bytes read 13479 written 0
+Jul 14 09:31:35 10.71.57.0 u87492038 [10.71.57.0|get|0|13479|0|0|0|2f64652f6c65697374756e67656e2f72656e6f76696572756e67656e2d6d616c6c6f7263612f696e6465782e68746d6c|]
+Jul 14 09:31:35 10.71.57.0 u87492038 open "/de/projekte/index.html" flags READ mode 0666
+Jul 14 09:31:35 10.71.57.0 u87492038 close "/de/projekte/index.html" bytes read 14620 written 0
+Jul 14 09:31:35 10.71.57.0 u87492038 [10.71.57.0|get|0|14620|0|0|0|2f64652f70726f6a656b74652f696e6465782e68746d6c|]
+Jul 14 09:31:35 10.71.57.0 u87492038 open "/de/ueber-uns/index.html" flags READ mode 0666
+Jul 14 09:31:35 10.71.57.0 u87492038 close "/de/ueber-uns/index.html" bytes read 8391 written 0
+Jul 14 09:31:35 10.71.57.0 u87492038 [10.71.57.0|get|0|8391|0|0|0|2f64652f75656265722d756e732f696e6465782e68746d6c|]
+Jul 14 09:31:35 10.71.57.0 u87492038 open "/en/index.html" flags READ mode 0666
+Jul 14 09:31:36 10.71.57.0 u87492038 close "/en/index.html" bytes read 14793 written 0
+Jul 14 09:31:36 10.71.57.0 u87492038 [10.71.57.0|get|1|14793|0|0|0|2f656e2f696e6465782e68746d6c|]
+Jul 14 09:31:36 10.71.57.0 u87492038 open "/en/about-us/index.html" flags READ mode 0666
+Jul 14 09:31:36 10.71.57.0 u87492038 close "/en/about-us/index.html" bytes read 8275 written 0
+Jul 14 09:31:36 10.71.57.0 u87492038 [10.71.57.0|get|0|8275|0|0|0|2f656e2f61626f75742d75732f696e6465782e68746d6c|]
+Jul 14 09:31:36 10.71.57.0 u87492038 open "/en/contact/index.html" flags READ mode 0666
+Jul 14 09:31:36 10.71.57.0 u87492038 close "/en/contact/index.html" bytes read 7329 written 0
+Jul 14 09:31:36 10.71.57.0 u87492038 [10.71.57.0|get|0|7329|0|0|0|2f656e2f636f6e746163742f696e6465782e68746d6c|]
+Jul 14 09:31:36 10.71.57.0 u87492038 open "/en/projects/index.html" flags READ mode 0666
+Jul 14 09:31:37 10.71.57.0 u87492038 close "/en/projects/index.html" bytes read 14572 written 0
+Jul 14 09:31:37 10.71.57.0 u87492038 [10.71.57.0|get|1|14572|0|0|0|2f656e2f70726f6a656374732f696e6465782e68746d6c|]
+Jul 14 09:31:37 10.71.57.0 u87492038 open "/en/services/index.html" flags READ mode 0666
+Jul 14 09:31:37 10.71.57.0 u87492038 close "/en/services/index.html" bytes read 10723 written 0
+Jul 14 09:31:37 10.71.57.0 u87492038 [10.71.57.0|get|0|10723|0|0|0|2f656e2f73657276696365732f696e6465782e68746d6c|]
+Jul 14 09:31:37 10.71.57.0 u87492038 open "/en/services/backup-refurbishment-mallorca/index.html" flags READ mode 0666
+Jul 14 09:31:37 10.71.57.0 u87492038 close "/en/services/backup-refurbishment-mallorca/index.html" bytes read 13210 written 0
+Jul 14 09:31:37 10.71.57.0 u87492038 [10.71.57.0|get|0|13210|0|0|0|2f656e2f73657276696365732f6261636b75702d7265667572626973686d656e742d6d616c6c6f7263612f696e6465782e68746d6c|]
+Jul 14 09:31:38 10.71.57.0 u87492038 open "/font-awesome-4.7.0/css/font-awesome.css" flags READ mode 0666
+Jul 14 09:31:38 10.71.57.0 u87492038 open "/font-awesome-4.7.0/css/font-awesome.min.css" flags READ mode 0666
+Jul 14 09:31:38 10.71.57.0 u87492038 close "/font-awesome-4.7.0/css/font-awesome.min.css" bytes read 31000 written 0
+Jul 14 09:31:38 10.71.57.0 u87492038 [10.71.57.0|get|0|31000|0|0|0|2f666f6e742d617765736f6d652d342e372e302f6373732f666f6e742d617765736f6d652e6d696e2e637373|]
+Jul 14 09:31:38 10.71.57.0 u87492038 close "/font-awesome-4.7.0/css/font-awesome.css" bytes read 37414 written 0
+Jul 14 09:31:38 10.71.57.0 u87492038 [10.71.57.0|get|0|37414|0|0|0|2f666f6e742d617765736f6d652d342e372e302f6373732f666f6e742d617765736f6d652e637373|]
+Jul 14 09:31:38 10.71.57.0 u87492038 open "/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" flags READ mode 0666
+Jul 14 09:31:38 10.71.57.0 u87492038 open "/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" flags READ mode 0666
+Jul 14 09:31:38 10.71.57.0 u87492038 close "/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" bytes read 77160 written 0
+Jul 14 09:31:38 10.71.57.0 u87492038 [10.71.57.0|get|0|77160|0|0|0|2f666f6e742d617765736f6d652d342e372e302f666f6e74732f666f6e74617765736f6d652d776562666f6e742e776f666632|]
+Jul 14 09:31:39 10.71.57.0 u87492038 close "/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" bytes read 98024 written 0
+Jul 14 09:31:39 10.71.57.0 u87492038 [10.71.57.0|get|1|98024|0|0|0|2f666f6e742d617765736f6d652d342e372e302f666f6e74732f666f6e74617765736f6d652d776562666f6e742e776f6666|]
+Jul 14 09:31:39 10.71.57.0 u87492038 open "/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" flags READ mode 0666
+Jul 14 09:31:39 10.71.57.0 u87492038 open "/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" flags READ mode 0666
+Jul 14 09:31:39 10.71.57.0 u87492038 close "/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" bytes read 165548 written 0
+Jul 14 09:31:39 10.71.57.0 u87492038 [10.71.57.0|get|0|165548|0|0|0|2f666f6e742d617765736f6d652d342e372e302f666f6e74732f666f6e74617765736f6d652d776562666f6e742e747466|]
+Jul 14 09:31:39 10.71.57.0 u87492038 close "/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" bytes read 444379 written 0
+Jul 14 09:31:39 10.71.57.0 u87492038 [10.71.57.0|get|0|444379|0|0|0|2f666f6e742d617765736f6d652d342e372e302f666f6e74732f666f6e74617765736f6d652d776562666f6e742e737667|]
+Jul 14 09:31:39 10.71.57.0 u87492038 open "/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" flags READ mode 0666
+Jul 14 09:31:39 10.71.57.0 u87492038 open "/font-awesome-4.7.0/fonts/FontAwesome.otf" flags READ mode 0666
+Jul 14 09:31:39 10.71.57.0 u87492038 close "/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" bytes read 165742 written 0
+Jul 14 09:31:39 10.71.57.0 u87492038 [10.71.57.0|get|0|165742|0|0|0|2f666f6e742d617765736f6d652d342e372e302f666f6e74732f666f6e74617765736f6d652d776562666f6e742e656f74|]
+Jul 14 09:31:39 10.71.57.0 u87492038 close "/font-awesome-4.7.0/fonts/FontAwesome.otf" bytes read 134808 written 0
+Jul 14 09:31:39 10.71.57.0 u87492038 [10.71.57.0|get|0|134808|0|0|0|2f666f6e742d617765736f6d652d342e372e302f666f6e74732f466f6e74417765736f6d652e6f7466|]
+Jul 14 09:31:39 10.71.57.0 u87492038 open "/font-awesome-4.7.0/less/variables.less" flags READ mode 0666
+Jul 14 09:31:39 10.71.57.0 u87492038 open "/font-awesome-4.7.0/less/stacked.less" flags READ mode 0666
+Jul 14 09:31:40 10.71.57.0 u87492038 close "/font-awesome-4.7.0/less/variables.less" bytes read 22563 written 0
+Jul 14 09:31:40 10.71.57.0 u87492038 [10.71.57.0|get|1|22563|0|0|0|2f666f6e742d617765736f6d652d342e372e302f6c6573732f7661726961626c65732e6c657373|]
+Jul 14 09:31:40 10.71.57.0 u87492038 close "/font-awesome-4.7.0/less/stacked.less" bytes read 476 written 0
+Jul 14 09:31:40 10.71.57.0 u87492038 [10.71.57.0|get|1|476|0|0|0|2f666f6e742d617765736f6d652d342e372e302f6c6573732f737461636b65642e6c657373|]
+Jul 14 09:31:40 10.71.57.0 u87492038 open "/font-awesome-4.7.0/less/screen-reader.less" flags READ mode 0666
+Jul 14 09:31:40 10.71.57.0 u87492038 open "/font-awesome-4.7.0/less/rotated-flipped.less" flags READ mode 0666
+Jul 14 09:31:40 10.71.57.0 u87492038 close "/font-awesome-4.7.0/less/screen-reader.less" bytes read 118 written 0
+Jul 14 09:31:40 10.71.57.0 u87492038 [10.71.57.0|get|0|118|0|0|0|2f666f6e742d617765736f6d652d342e372e302f6c6573732f73637265656e2d7265616465722e6c657373|]
+Jul 14 09:31:40 10.71.57.0 u87492038 close "/font-awesome-4.7.0/less/rotated-flipped.less" bytes read 622 written 0
+Jul 14 09:31:40 10.71.57.0 u87492038 [10.71.57.0|get|0|622|0|0|0|2f666f6e742d617765736f6d652d342e372e302f6c6573732f726f74617465642d666c69707065642e6c657373|]
+Jul 14 09:31:40 10.71.57.0 u87492038 open "/font-awesome-4.7.0/less/path.less" flags READ mode 0666
+Jul 14 09:31:40 10.71.57.0 u87492038 open "/font-awesome-4.7.0/less/mixins.less" flags READ mode 0666
+Jul 14 09:31:40 10.71.57.0 u87492038 close "/font-awesome-4.7.0/less/path.less" bytes read 771 written 0
+Jul 14 09:31:40 10.71.57.0 u87492038 [10.71.57.0|get|0|771|0|0|0|2f666f6e742d617765736f6d652d342e372e302f6c6573732f706174682e6c657373|]
+Jul 14 09:31:40 10.71.57.0 u87492038 close "/font-awesome-4.7.0/less/mixins.less" bytes read 1603 written 0
+Jul 14 09:31:40 10.71.57.0 u87492038 [10.71.57.0|get|0|1603|0|0|0|2f666f6e742d617765736f6d652d342e372e302f6c6573732f6d6978696e732e6c657373|]
+Jul 14 09:31:40 10.71.57.0 u87492038 open "/font-awesome-4.7.0/less/list.less" flags READ mode 0666
+Jul 14 09:31:40 10.71.57.0 u87492038 open "/font-awesome-4.7.0/less/larger.less" flags READ mode 0666
+Jul 14 09:31:40 10.71.57.0 u87492038 close "/font-awesome-4.7.0/less/list.less" bytes read 377 written 0
+Jul 14 09:31:40 10.71.57.0 u87492038 [10.71.57.0|get|0|377|0|0|0|2f666f6e742d617765736f6d652d342e372e302f6c6573732f6c6973742e6c657373|]
+Jul 14 09:31:40 10.71.57.0 u87492038 close "/font-awesome-4.7.0/less/larger.less" bytes read 370 written 0
+Jul 14 09:31:40 10.71.57.0 u87492038 [10.71.57.0|get|0|370|0|0|0|2f666f6e742d617765736f6d652d342e372e302f6c6573732f6c61726765722e6c657373|]
+Jul 14 09:31:40 10.71.57.0 u87492038 open "/font-awesome-4.7.0/less/icons.less" flags READ mode 0666
+Jul 14 09:31:40 10.71.57.0 u87492038 open "/font-awesome-4.7.0/less/font-awesome.less" flags READ mode 0666
+Jul 14 09:31:41 10.71.57.0 u87492038 close "/font-awesome-4.7.0/less/icons.less" bytes read 49712 written 0
+Jul 14 09:31:41 10.71.57.0 u87492038 [10.71.57.0|get|1|49712|0|0|0|2f666f6e742d617765736f6d652d342e372e302f6c6573732f69636f6e732e6c657373|]
+Jul 14 09:31:41 10.71.57.0 u87492038 close "/font-awesome-4.7.0/less/font-awesome.less" bytes read 495 written 0
+Jul 14 09:31:41 10.71.57.0 u87492038 [10.71.57.0|get|1|495|0|0|0|2f666f6e742d617765736f6d652d342e372e302f6c6573732f666f6e742d617765736f6d652e6c657373|]
+Jul 14 09:31:41 10.71.57.0 u87492038 open "/font-awesome-4.7.0/less/fixed-width.less" flags READ mode 0666
+Jul 14 09:31:41 10.71.57.0 u87492038 open "/font-awesome-4.7.0/less/core.less" flags READ mode 0666
+Jul 14 09:31:41 10.71.57.0 u87492038 close "/font-awesome-4.7.0/less/fixed-width.less" bytes read 119 written 0
+Jul 14 09:31:41 10.71.57.0 u87492038 [10.71.57.0|get|0|119|0|0|0|2f666f6e742d617765736f6d652d342e372e302f6c6573732f66697865642d77696474682e6c657373|]
+Jul 14 09:31:41 10.71.57.0 u87492038 close "/font-awesome-4.7.0/less/core.less" bytes read 452 written 0
+Jul 14 09:31:41 10.71.57.0 u87492038 [10.71.57.0|get|0|452|0|0|0|2f666f6e742d617765736f6d652d342e372e302f6c6573732f636f72652e6c657373|]
+Jul 14 09:31:41 10.71.57.0 u87492038 open "/font-awesome-4.7.0/less/bordered-pulled.less" flags READ mode 0666
+Jul 14 09:31:41 10.71.57.0 u87492038 open "/font-awesome-4.7.0/less/animated.less" flags READ mode 0666
+Jul 14 09:31:41 10.71.57.0 u87492038 close "/font-awesome-4.7.0/less/bordered-pulled.less" bytes read 585 written 0
+Jul 14 09:31:41 10.71.57.0 u87492038 [10.71.57.0|get|0|585|0|0|0|2f666f6e742d617765736f6d652d342e372e302f6c6573732f626f7264657265642d70756c6c65642e6c657373|]
+Jul 14 09:31:41 10.71.57.0 u87492038 close "/font-awesome-4.7.0/less/animated.less" bytes read 713 written 0
+Jul 14 09:31:41 10.71.57.0 u87492038 [10.71.57.0|get|0|713|0|0|0|2f666f6e742d617765736f6d652d342e372e302f6c6573732f616e696d617465642e6c657373|]
+Jul 14 09:31:41 10.71.57.0 u87492038 open "/font-awesome-4.7.0/scss/font-awesome.scss" flags READ mode 0666
+Jul 14 09:31:41 10.71.57.0 u87492038 open "/font-awesome-4.7.0/scss/_variables.scss" flags READ mode 0666
+Jul 14 09:31:41 10.71.57.0 u87492038 close "/font-awesome-4.7.0/scss/font-awesome.scss" bytes read 430 written 0
+Jul 14 09:31:41 10.71.57.0 u87492038 [10.71.57.0|get|0|430|0|0|0|2f666f6e742d617765736f6d652d342e372e302f736373732f666f6e742d617765736f6d652e73637373|]
+Jul 14 09:31:41 10.71.57.0 u87492038 close "/font-awesome-4.7.0/scss/_variables.scss" bytes read 22644 written 0
+Jul 14 09:31:41 10.71.57.0 u87492038 [10.71.57.0|get|0|22644|0|0|0|2f666f6e742d617765736f6d652d342e372e302f736373732f5f7661726961626c65732e73637373|]
+Jul 14 09:31:42 10.71.57.0 u87492038 open "/font-awesome-4.7.0/scss/_stacked.scss" flags READ mode 0666
+Jul 14 09:31:42 10.71.57.0 u87492038 open "/font-awesome-4.7.0/scss/_screen-reader.scss" flags READ mode 0666
+Jul 14 09:31:42 10.71.57.0 u87492038 close "/font-awesome-4.7.0/scss/_stacked.scss" bytes read 482 written 0
+Jul 14 09:31:42 10.71.57.0 u87492038 [10.71.57.0|get|0|482|0|0|0|2f666f6e742d617765736f6d652d342e372e302f736373732f5f737461636b65642e73637373|]
+Jul 14 09:31:42 10.71.57.0 u87492038 close "/font-awesome-4.7.0/scss/_screen-reader.scss" bytes read 134 written 0
+Jul 14 09:31:42 10.71.57.0 u87492038 [10.71.57.0|get|0|134|0|0|0|2f666f6e742d617765736f6d652d342e372e302f736373732f5f73637265656e2d7265616465722e73637373|]
+Jul 14 09:31:42 10.71.57.0 u87492038 open "/font-awesome-4.7.0/scss/_rotated-flipped.scss" flags READ mode 0666
+Jul 14 09:31:42 10.71.57.0 u87492038 open "/font-awesome-4.7.0/scss/_path.scss" flags READ mode 0666
+Jul 14 09:31:42 10.71.57.0 u87492038 close "/font-awesome-4.7.0/scss/_rotated-flipped.scss" bytes read 672 written 0
+Jul 14 09:31:42 10.71.57.0 u87492038 [10.71.57.0|get|0|672|0|0|0|2f666f6e742d617765736f6d652d342e372e302f736373732f5f726f74617465642d666c69707065642e73637373|]
+Jul 14 09:31:42 10.71.57.0 u87492038 close "/font-awesome-4.7.0/scss/_path.scss" bytes read 783 written 0
+Jul 14 09:31:42 10.71.57.0 u87492038 [10.71.57.0|get|0|783|0|0|0|2f666f6e742d617765736f6d652d342e372e302f736373732f5f706174682e73637373|]
+Jul 14 09:31:42 10.71.57.0 u87492038 open "/font-awesome-4.7.0/scss/_mixins.scss" flags READ mode 0666
+Jul 14 09:31:42 10.71.57.0 u87492038 open "/font-awesome-4.7.0/scss/_list.scss" flags READ mode 0666
+Jul 14 09:31:42 10.71.57.0 u87492038 close "/font-awesome-4.7.0/scss/_mixins.scss" bytes read 1637 written 0
+Jul 14 09:31:42 10.71.57.0 u87492038 [10.71.57.0|get|0|1637|0|0|0|2f666f6e742d617765736f6d652d342e372e302f736373732f5f6d6978696e732e73637373|]
+Jul 14 09:31:42 10.71.57.0 u87492038 close "/font-awesome-4.7.0/scss/_list.scss" bytes read 378 written 0
+Jul 14 09:31:42 10.71.57.0 u87492038 [10.71.57.0|get|0|378|0|0|0|2f666f6e742d617765736f6d652d342e372e302f736373732f5f6c6973742e73637373|]
+Jul 14 09:31:42 10.71.57.0 u87492038 open "/font-awesome-4.7.0/scss/_larger.scss" flags READ mode 0666
+Jul 14 09:31:42 10.71.57.0 u87492038 open "/font-awesome-4.7.0/scss/_icons.scss" flags READ mode 0666
+Jul 14 09:31:43 10.71.57.0 u87492038 close "/font-awesome-4.7.0/scss/_larger.scss" bytes read 375 written 0
+Jul 14 09:31:43 10.71.57.0 u87492038 [10.71.57.0|get|1|375|0|0|0|2f666f6e742d617765736f6d652d342e372e302f736373732f5f6c61726765722e73637373|]
+Jul 14 09:31:43 10.71.57.0 u87492038 close "/font-awesome-4.7.0/scss/_icons.scss" bytes read 50498 written 0
+Jul 14 09:31:43 10.71.57.0 u87492038 [10.71.57.0|get|1|50498|0|0|0|2f666f6e742d617765736f6d652d342e372e302f736373732f5f69636f6e732e73637373|]
+Jul 14 09:31:43 10.71.57.0 u87492038 open "/font-awesome-4.7.0/scss/_fixed-width.scss" flags READ mode 0666
+Jul 14 09:31:43 10.71.57.0 u87492038 open "/font-awesome-4.7.0/scss/_core.scss" flags READ mode 0666
+Jul 14 09:31:43 10.71.57.0 u87492038 close "/font-awesome-4.7.0/scss/_core.scss" bytes read 459 written 0
+Jul 14 09:31:43 10.71.57.0 u87492038 [10.71.57.0|get|0|459|0|0|0|2f666f6e742d617765736f6d652d342e372e302f736373732f5f636f72652e73637373|]
+Jul 14 09:31:43 10.71.57.0 u87492038 close "/font-awesome-4.7.0/scss/_fixed-width.scss" bytes read 120 written 0
+Jul 14 09:31:43 10.71.57.0 u87492038 [10.71.57.0|get|0|120|0|0|0|2f666f6e742d617765736f6d652d342e372e302f736373732f5f66697865642d77696474682e73637373|]
+Jul 14 09:31:43 10.71.57.0 u87492038 open "/font-awesome-4.7.0/scss/_bordered-pulled.scss" flags READ mode 0666
+Jul 14 09:31:43 10.71.57.0 u87492038 open "/font-awesome-4.7.0/scss/_animated.scss" flags READ mode 0666
+Jul 14 09:31:43 10.71.57.0 u87492038 close "/font-awesome-4.7.0/scss/_bordered-pulled.scss" bytes read 592 written 0
+Jul 14 09:31:43 10.71.57.0 u87492038 [10.71.57.0|get|0|592|0|0|0|2f666f6e742d617765736f6d652d342e372e302f736373732f5f626f7264657265642d70756c6c65642e73637373|]
+Jul 14 09:31:43 10.71.57.0 u87492038 close "/font-awesome-4.7.0/scss/_animated.scss" bytes read 715 written 0
+Jul 14 09:31:43 10.71.57.0 u87492038 [10.71.57.0|get|0|715|0|0|0|2f666f6e742d617765736f6d652d342e372e302f736373732f5f616e696d617465642e73637373|]
+Jul 14 09:31:43 10.71.57.0 u87492038 open "/images/envivir-interiorismo-y-reformas-sl.jpg" flags READ mode 0666
+Jul 14 09:31:44 10.71.57.0 u87492038 open "/images/logo-sbp.jpg" flags READ mode 0666
+Jul 14 09:31:44 10.71.57.0 u87492038 close "/images/envivir-interiorismo-y-reformas-sl.jpg" bytes read 169509 written 0
+Jul 14 09:31:44 10.71.57.0 u87492038 [10.71.57.0|get|1|169509|0|0|0|2f696d616765732f656e76697669722d696e746572696f7269736d6f2d792d7265666f726d61732d736c2e6a7067|]
+Jul 14 09:31:44 10.71.57.0 u87492038 close "/images/logo-sbp.jpg" bytes read 18697 written 0
+Jul 14 09:31:44 10.71.57.0 u87492038 [10.71.57.0|get|0|18697|0|0|0|2f696d616765732f6c6f676f2d7362702e6a7067|]
+Jul 14 09:31:44 10.71.57.0 u87492038 open "/images/logo-rea.jpg" flags READ mode 0666
+Jul 14 09:31:44 10.71.57.0 u87492038 open "/images/logo-envivir.png" flags READ mode 0666
+Jul 14 09:31:44 10.71.57.0 u87492038 close "/images/logo-rea.jpg" bytes read 21907 written 0
+Jul 14 09:31:44 10.71.57.0 u87492038 [10.71.57.0|get|0|21907|0|0|0|2f696d616765732f6c6f676f2d7265612e6a7067|]
+Jul 14 09:31:44 10.71.57.0 u87492038 close "/images/logo-envivir.png" bytes read 20727 written 0
+Jul 14 09:31:44 10.71.57.0 u87492038 [10.71.57.0|get|0|20727|0|0|0|2f696d616765732f6c6f676f2d656e76697669722e706e67|]
+Jul 14 09:31:44 10.71.57.0 u87492038 open "/images/logo-envivir-square.png" flags READ mode 0666
+Jul 14 09:31:44 10.71.57.0 u87492038 open "/images/bg-inicio-servicios-960.jpg" flags READ mode 0666
+Jul 14 09:31:44 10.71.57.0 u87492038 close "/images/logo-envivir-square.png" bytes read 26836 written 0
+Jul 14 09:31:44 10.71.57.0 u87492038 [10.71.57.0|get|0|26836|0|0|0|2f696d616765732f6c6f676f2d656e76697669722d7371756172652e706e67|]
+Jul 14 09:31:44 10.71.57.0 u87492038 close "/images/bg-inicio-servicios-960.jpg" bytes read 35017 written 0
+Jul 14 09:31:44 10.71.57.0 u87492038 [10.71.57.0|get|0|35017|0|0|0|2f696d616765732f62672d696e6963696f2d736572766963696f732d3936302e6a7067|]
+Jul 14 09:31:44 10.71.57.0 u87492038 open "/images/bg-inicio-servicios-767.jpg" flags READ mode 0666
+Jul 14 09:31:44 10.71.57.0 u87492038 open "/images/bg-inicio-servicios-1920.jpg" flags READ mode 0666
+Jul 14 09:31:44 10.71.57.0 u87492038 close "/images/bg-inicio-servicios-767.jpg" bytes read 27478 written 0
+Jul 14 09:31:44 10.71.57.0 u87492038 [10.71.57.0|get|0|27478|0|0|0|2f696d616765732f62672d696e6963696f2d736572766963696f732d3736372e6a7067|]
+Jul 14 09:31:44 10.71.57.0 u87492038 close "/images/bg-inicio-servicios-1920.jpg" bytes read 110522 written 0
+Jul 14 09:31:44 10.71.57.0 u87492038 [10.71.57.0|get|0|110522|0|0|0|2f696d616765732f62672d696e6963696f2d736572766963696f732d313932302e6a7067|]
+Jul 14 09:31:45 10.71.57.0 u87492038 open "/images/bg-inicio-proyectos-960.jpg" flags READ mode 0666
+Jul 14 09:31:45 10.71.57.0 u87492038 open "/images/bg-inicio-proyectos-767.jpg" flags READ mode 0666
+Jul 14 09:31:45 10.71.57.0 u87492038 close "/images/bg-inicio-proyectos-960.jpg" bytes read 54886 written 0
+Jul 14 09:31:45 10.71.57.0 u87492038 [10.71.57.0|get|0|54886|0|0|0|2f696d616765732f62672d696e6963696f2d70726f796563746f732d3936302e6a7067|]
+Jul 14 09:31:45 10.71.57.0 u87492038 close "/images/bg-inicio-proyectos-767.jpg" bytes read 43309 written 0
+Jul 14 09:31:45 10.71.57.0 u87492038 [10.71.57.0|get|0|43309|0|0|0|2f696d616765732f62672d696e6963696f2d70726f796563746f732d3736372e6a7067|]
+Jul 14 09:31:45 10.71.57.0 u87492038 open "/images/bg-inicio-proyectos-1920.jpg" flags READ mode 0666
+Jul 14 09:31:45 10.71.57.0 u87492038 open "/images/bg-inicio-equipo-960.jpg" flags READ mode 0666
+Jul 14 09:31:45 10.71.57.0 u87492038 close "/images/bg-inicio-proyectos-1920.jpg" bytes read 192485 written 0
+Jul 14 09:31:45 10.71.57.0 u87492038 [10.71.57.0|get|0|192485|0|0|0|2f696d616765732f62672d696e6963696f2d70726f796563746f732d313932302e6a7067|]
+Jul 14 09:31:45 10.71.57.0 u87492038 close "/images/bg-inicio-equipo-960.jpg" bytes read 51419 written 0
+Jul 14 09:31:45 10.71.57.0 u87492038 [10.71.57.0|get|0|51419|0|0|0|2f696d616765732f62672d696e6963696f2d65717569706f2d3936302e6a7067|]
+Jul 14 09:31:45 10.71.57.0 u87492038 open "/images/bg-inicio-equipo-767.jpg" flags READ mode 0666
+Jul 14 09:31:45 10.71.57.0 u87492038 open "/images/bg-inicio-equipo-1920.jpg" flags READ mode 0666
+Jul 14 09:31:45 10.71.57.0 u87492038 close "/images/bg-inicio-equipo-767.jpg" bytes read 43602 written 0
+Jul 14 09:31:45 10.71.57.0 u87492038 [10.71.57.0|get|0|43602|0|0|0|2f696d616765732f62672d696e6963696f2d65717569706f2d3736372e6a7067|]
+Jul 14 09:31:45 10.71.57.0 u87492038 close "/images/bg-inicio-equipo-1920.jpg" bytes read 155321 written 0
+Jul 14 09:31:45 10.71.57.0 u87492038 [10.71.57.0|get|0|155321|0|0|0|2f696d616765732f62672d696e6963696f2d65717569706f2d313932302e6a7067|]
+Jul 14 09:31:45 10.71.57.0 u87492038 open "/images/icons/icon-versadilidad.svg" flags READ mode 0666
+Jul 14 09:31:46 10.71.57.0 u87492038 open "/images/icons/icon-sofisticacion.svg" flags READ mode 0666
+Jul 14 09:31:46 10.71.57.0 u87492038 close "/images/icons/icon-versadilidad.svg" bytes read 8125 written 0
+Jul 14 09:31:46 10.71.57.0 u87492038 [10.71.57.0|get|1|8125|0|0|0|2f696d616765732f69636f6e732f69636f6e2d766572736164696c696461642e737667|]
+Jul 14 09:31:46 10.71.57.0 u87492038 close "/images/icons/icon-sofisticacion.svg" bytes read 2904 written 0
+Jul 14 09:31:46 10.71.57.0 u87492038 [10.71.57.0|get|1|2904|0|0|0|2f696d616765732f69636f6e732f69636f6e2d736f6669737469636163696f6e2e737667|]
+Jul 14 09:31:46 10.71.57.0 u87492038 open "/images/icons/icon-renovaciones.svg" flags READ mode 0666
+Jul 14 09:31:46 10.71.57.0 u87492038 open "/images/icons/icon-reformas-integrales.svg" flags READ mode 0666
+Jul 14 09:31:46 10.71.57.0 u87492038 close "/images/icons/icon-renovaciones.svg" bytes read 13731 written 0
+Jul 14 09:31:46 10.71.57.0 u87492038 [10.71.57.0|get|0|13731|0|0|0|2f696d616765732f69636f6e732f69636f6e2d72656e6f766163696f6e65732e737667|]
+Jul 14 09:31:46 10.71.57.0 u87492038 close "/images/icons/icon-reformas-integrales.svg" bytes read 19782 written 0
+Jul 14 09:31:46 10.71.57.0 u87492038 [10.71.57.0|get|0|19782|0|0|0|2f696d616765732f69636f6e732f69636f6e2d7265666f726d61732d696e74656772616c65732e737667|]
+Jul 14 09:31:46 10.71.57.0 u87492038 open "/images/icons/icon-reforma-locales.svg" flags READ mode 0666
+Jul 14 09:31:46 10.71.57.0 u87492038 open "/images/icons/icon-reforma-cocinas.svg" flags READ mode 0666
+Jul 14 09:31:46 10.71.57.0 u87492038 close "/images/icons/icon-reforma-locales.svg" bytes read 9839 written 0
+Jul 14 09:31:46 10.71.57.0 u87492038 [10.71.57.0|get|0|9839|0|0|0|2f696d616765732f69636f6e732f69636f6e2d7265666f726d612d6c6f63616c65732e737667|]
+Jul 14 09:31:46 10.71.57.0 u87492038 close "/images/icons/icon-reforma-cocinas.svg" bytes read 8983 written 0
+Jul 14 09:31:46 10.71.57.0 u87492038 [10.71.57.0|get|0|8983|0|0|0|2f696d616765732f69636f6e732f69636f6e2d7265666f726d612d636f63696e61732e737667|]
+Jul 14 09:31:46 10.71.57.0 u87492038 open "/images/icons/icon-reforma-banos.svg" flags READ mode 0666
+Jul 14 09:31:46 10.71.57.0 u87492038 open "/images/icons/icon-pasion.svg" flags READ mode 0666
+Jul 14 09:31:46 10.71.57.0 u87492038 close "/images/icons/icon-reforma-banos.svg" bytes read 3806 written 0
+Jul 14 09:31:46 10.71.57.0 u87492038 [10.71.57.0|get|0|3806|0|0|0|2f696d616765732f69636f6e732f69636f6e2d7265666f726d612d62616e6f732e737667|]
+Jul 14 09:31:46 10.71.57.0 u87492038 close "/images/icons/icon-pasion.svg" bytes read 2925 written 0
+Jul 14 09:31:46 10.71.57.0 u87492038 [10.71.57.0|get|0|2925|0|0|0|2f696d616765732f69636f6e732f69636f6e2d706173696f6e2e737667|]
+Jul 14 09:31:46 10.71.57.0 u87492038 open "/images/icons/icon-gestion-proyectos.svg" flags READ mode 0666
+Jul 14 09:31:47 10.71.57.0 u87492038 open "/images/icons/icon-diseno-interiores.svg" flags READ mode 0666
+Jul 14 09:31:47 10.71.57.0 u87492038 close "/images/icons/icon-gestion-proyectos.svg" bytes read 5294 written 0
+Jul 14 09:31:47 10.71.57.0 u87492038 [10.71.57.0|get|1|5294|0|0|0|2f696d616765732f69636f6e732f69636f6e2d67657374696f6e2d70726f796563746f732e737667|]
+Jul 14 09:31:47 10.71.57.0 u87492038 open "/images/icons/icon-contratista-general.svg" flags READ mode 0666
+Jul 14 09:31:47 10.71.57.0 u87492038 close "/images/icons/icon-diseno-interiores.svg" bytes read 4932 written 0
+Jul 14 09:31:47 10.71.57.0 u87492038 [10.71.57.0|get|0|4932|0|0|0|2f696d616765732f69636f6e732f69636f6e2d646973656e6f2d696e746572696f7265732e737667|]
+Jul 14 09:31:47 10.71.57.0 u87492038 close "/images/icons/icon-contratista-general.svg" bytes read 9847 written 0
+Jul 14 09:31:47 10.71.57.0 u87492038 [10.71.57.0|get|0|9847|0|0|0|2f696d616765732f69636f6e732f69636f6e2d636f6e74726174697374612d67656e6572616c2e737667|]
+Jul 14 09:31:47 10.71.57.0 u87492038 open "/images/icons/icon-construccion-piscinas.svg" flags READ mode 0666
+Jul 14 09:31:47 10.71.57.0 u87492038 close "/images/icons/icon-construccion-piscinas.svg" bytes read 6558 written 0
+Jul 14 09:31:47 10.71.57.0 u87492038 [10.71.57.0|get|0|6558|0|0|0|2f696d616765732f69636f6e732f69636f6e2d636f6e737472756363696f6e2d70697363696e61732e737667|]
+Jul 14 09:31:47 10.71.57.0 u87492038 open "/images/proyectos/aislamiento-terraza-azotea-andratx-mallorca/aislamiento-terraza-azotea-andratx-mallorca-top-960.jpg" flags READ mode 0666
+Jul 14 09:31:47 10.71.57.0 u87492038 close "/images/proyectos/aislamiento-terraza-azotea-andratx-mallorca/aislamiento-terraza-azotea-andratx-mallorca-top-960.jpg" bytes read 113355 written 0
+Jul 14 09:31:47 10.71.57.0 u87492038 [10.71.57.0|get|0|113355|0|0|0|2f696d616765732f70726f796563746f732f6169736c616d69656e746f2d74657272617a612d617a6f7465612d616e64726174782d6d616c6c6f7263612f6169736c616d69656e746f2d74657272617a612d617a6f7465612d616e64726174782d6d616c6c6f7263612d746f702d3936302e6a7067|]
+Jul 14 09:31:47 10.71.57.0 u87492038 open "/images/proyectos/aislamiento-terraza-azotea-andratx-mallorca/aislamiento-terraza-azotea-andratx-mallorca-top-767.jpg" flags READ mode 0666
+Jul 14 09:31:47 10.71.57.0 u87492038 open "/images/proyectos/aislamiento-terraza-azotea-andratx-mallorca/aislamiento-terraza-azotea-andratx-mallorca-top-1920.jpg" flags READ mode 0666
+Jul 14 09:31:47 10.71.57.0 u87492038 close "/images/proyectos/aislamiento-terraza-azotea-andratx-mallorca/aislamiento-terraza-azotea-andratx-mallorca-top-767.jpg" bytes read 97269 written 0
+Jul 14 09:31:47 10.71.57.0 u87492038 [10.71.57.0|get|0|97269|0|0|0|2f696d616765732f70726f796563746f732f6169736c616d69656e746f2d74657272617a612d617a6f7465612d616e64726174782d6d616c6c6f7263612f6169736c616d69656e746f2d74657272617a612d617a6f7465612d616e64726174782d6d616c6c6f7263612d746f702d3736372e6a7067|]
+Jul 14 09:31:47 10.71.57.0 u87492038 close "/images/proyectos/aislamiento-terraza-azotea-andratx-mallorca/aislamiento-terraza-azotea-andratx-mallorca-top-1920.jpg" bytes read 394132 written 0
+Jul 14 09:31:47 10.71.57.0 u87492038 [10.71.57.0|get|0|394132|0|0|0|2f696d616765732f70726f796563746f732f6169736c616d69656e746f2d74657272617a612d617a6f7465612d616e64726174782d6d616c6c6f7263612f6169736c616d69656e746f2d74657272617a612d617a6f7465612d616e64726174782d6d616c6c6f7263612d746f702d313932302e6a7067|]
+Jul 14 09:31:47 10.71.57.0 u87492038 open "/images/proyectos/aislamiento-terraza-azotea-andratx-mallorca/aislamiento-terraza-azotea-andratx-mallorca-7.jpg" flags READ mode 0666
+Jul 14 09:31:48 10.71.57.0 u87492038 open "/images/proyectos/aislamiento-terraza-azotea-andratx-mallorca/aislamiento-terraza-azotea-andratx-mallorca-6.jpg" flags READ mode 0666
+Jul 14 09:31:48 10.71.57.0 u87492038 close "/images/proyectos/aislamiento-terraza-azotea-andratx-mallorca/aislamiento-terraza-azotea-andratx-mallorca-7.jpg" bytes read 125799 written 0
+Jul 14 09:31:48 10.71.57.0 u87492038 [10.71.57.0|get|1|125799|0|0|0|2f696d616765732f70726f796563746f732f6169736c616d69656e746f2d74657272617a612d617a6f7465612d616e64726174782d6d616c6c6f7263612f6169736c616d69656e746f2d74657272617a612d617a6f7465612d616e64726174782d6d616c6c6f7263612d372e6a7067|]
+Jul 14 09:31:48 10.71.57.0 u87492038 close "/images/proyectos/aislamiento-terraza-azotea-andratx-mallorca/aislamiento-terraza-azotea-andratx-mallorca-6.jpg" bytes read 157351 written 0
+Jul 14 09:31:48 10.71.57.0 u87492038 [10.71.57.0|get|0|157351|0|0|0|2f696d616765732f70726f796563746f732f6169736c616d69656e746f2d74657272617a612d617a6f7465612d616e64726174782d6d616c6c6f7263612f6169736c616d69656e746f2d74657272617a612d617a6f7465612d616e64726174782d6d616c6c6f7263612d362e6a7067|]
+Jul 14 09:31:48 10.71.57.0 u87492038 open "/images/proyectos/aislamiento-terraza-azotea-andratx-mallorca/aislamiento-terraza-azotea-andratx-mallorca-5.jpg" flags READ mode 0666
+Jul 14 09:31:48 10.71.57.0 u87492038 open "/images/proyectos/aislamiento-terraza-azotea-andratx-mallorca/aislamiento-terraza-azotea-andratx-mallorca-4.jpg" flags READ mode 0666
+Jul 14 09:31:48 10.71.57.0 u87492038 close "/images/proyectos/aislamiento-terraza-azotea-andratx-mallorca/aislamiento-terraza-azotea-andratx-mallorca-5.jpg" bytes read 144358 written 0
+Jul 14 09:31:48 10.71.57.0 u87492038 [10.71.57.0|get|0|144358|0|0|0|2f696d616765732f70726f796563746f732f6169736c616d69656e746f2d74657272617a612d617a6f7465612d616e64726174782d6d616c6c6f7263612f6169736c616d69656e746f2d74657272617a612d617a6f7465612d616e64726174782d6d616c6c6f7263612d352e6a7067|]
+Jul 14 09:31:48 10.71.57.0 u87492038 sent status No such file
+Jul 14 09:31:48 10.71.57.0 u87492038 open "/images/proyectos/aislamiento-terraza-azotea-andratx-mallorca/aislamiento-terraza-azotea-andratx-mallorca-3.jpg" flags READ mode 0666
+Jul 14 09:31:48 10.71.57.0 u87492038 close "/images/proyectos/aislamiento-terraza-azotea-andratx-mallorca/aislamiento-terraza-azotea-andratx-mallorca-4.jpg" bytes read 263989 written 0
+Jul 14 09:31:48 10.71.57.0 u87492038 [10.71.57.0|get|0|263989|0|0|0|2f696d616765732f70726f796563746f732f6169736c616d69656e746f2d74657272617a612d617a6f7465612d616e64726174782d6d616c6c6f7263612f6169736c616d69656e746f2d74657272617a612d617a6f7465612d616e64726174782d6d616c6c6f7263612d342e6a7067|]
+Jul 14 09:31:48 10.71.57.0 u87492038 open "/images/proyectos/aislamiento-terraza-azotea-andratx-mallorca/aislamiento-terraza-azotea-andratx-mallorca-2.jpg" flags READ mode 0666
+Jul 14 09:31:48 10.71.57.0 u87492038 close "/images/proyectos/aislamiento-terraza-azotea-andratx-mallorca/aislamiento-terraza-azotea-andratx-mallorca-3.jpg" bytes read 254800 written 0
+Jul 14 09:31:48 10.71.57.0 u87492038 [10.71.57.0|get|0|254800|0|0|0|2f696d616765732f70726f796563746f732f6169736c616d69656e746f2d74657272617a612d617a6f7465612d616e64726174782d6d616c6c6f7263612f6169736c616d69656e746f2d74657272617a612d617a6f7465612d616e64726174782d6d616c6c6f7263612d332e6a7067|]
+Jul 14 09:31:48 10.71.57.0 u87492038 close "/images/proyectos/aislamiento-terraza-azotea-andratx-mallorca/aislamiento-terraza-azotea-andratx-mallorca-2.jpg" bytes read 297137 written 0
+Jul 14 09:31:48 10.71.57.0 u87492038 [10.71.57.0|get|0|297137|0|0|0|2f696d616765732f70726f796563746f732f6169736c616d69656e746f2d74657272617a612d617a6f7465612d616e64726174782d6d616c6c6f7263612f6169736c616d69656e746f2d74657272617a612d617a6f7465612d616e64726174782d6d616c6c6f7263612d322e6a7067|]
+Jul 14 09:31:48 10.71.57.0 u87492038 open "/images/proyectos/aislamiento-terraza-azotea-andratx-mallorca/aislamiento-terraza-azotea-andratx-mallorca-1.jpg" flags READ mode 0666
+Jul 14 09:31:48 10.71.57.0 u87492038 close "/images/proyectos/aislamiento-terraza-azotea-andratx-mallorca/aislamiento-terraza-azotea-andratx-mallorca-1.jpg" bytes read 219328 written 0
+Jul 14 09:31:48 10.71.57.0 u87492038 [10.71.57.0|get|0|219328|0|0|0|2f696d616765732f70726f796563746f732f6169736c616d69656e746f2d74657272617a612d617a6f7465612d616e64726174782d6d616c6c6f7263612f6169736c616d69656e746f2d74657272617a612d617a6f7465612d616e64726174782d6d616c6c6f7263612d312e6a7067|]
+Jul 14 09:31:49 10.71.57.0 u87492038 open "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/trabajos-demolicion-bar-palma-de-mallorca.jpg" flags READ mode 0666
+Jul 14 09:31:49 10.71.57.0 u87492038 close "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/trabajos-demolicion-bar-palma-de-mallorca.jpg" bytes read 165453 written 0
+Jul 14 09:31:49 10.71.57.0 u87492038 [10.71.57.0|get|1|165453|0|0|0|2f696d616765732f70726f796563746f732f636f6e737472756363696f6e2d68616269746163696f6e65732d686f74656c2d70616c6d612d64652d6d616c6c6f7263612f74726162616a6f732d64656d6f6c6963696f6e2d6261722d70616c6d612d64652d6d616c6c6f7263612e6a7067|]
+Jul 14 09:31:49 10.71.57.0 u87492038 open "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/pintura-habitaciones-hotel-palma-de-mallorca.jpg" flags READ mode 0666
+Jul 14 09:31:49 10.71.57.0 u87492038 open "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/nuevas-puertas-ventanas-hotel-palma-de-mallorca.jpg" flags READ mode 0666
+Jul 14 09:31:49 10.71.57.0 u87492038 close "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/pintura-habitaciones-hotel-palma-de-mallorca.jpg" bytes read 205150 written 0
+Jul 14 09:31:49 10.71.57.0 u87492038 [10.71.57.0|get|0|205150|0|0|0|2f696d616765732f70726f796563746f732f636f6e737472756363696f6e2d68616269746163696f6e65732d686f74656c2d70616c6d612d64652d6d616c6c6f7263612f70696e747572612d68616269746163696f6e65732d686f74656c2d70616c6d612d64652d6d616c6c6f7263612e6a7067|]
+Jul 14 09:31:49 10.71.57.0 u87492038 close "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/nuevas-puertas-ventanas-hotel-palma-de-mallorca.jpg" bytes read 201665 written 0
+Jul 14 09:31:49 10.71.57.0 u87492038 [10.71.57.0|get|0|201665|0|0|0|2f696d616765732f70726f796563746f732f636f6e737472756363696f6e2d68616269746163696f6e65732d686f74656c2d70616c6d612d64652d6d616c6c6f7263612f6e75657661732d707565727461732d76656e74616e61732d686f74656c2d70616c6d612d64652d6d616c6c6f7263612e6a7067|]
+Jul 14 09:31:49 10.71.57.0 u87492038 open "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/montaje-puerta-hotel-palma-de-mallorca.jpg" flags READ mode 0666
+Jul 14 09:31:49 10.71.57.0 u87492038 open "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/instalaciones-electricas-palma-de-mallorca.jpg" flags READ mode 0666
+Jul 14 09:31:49 10.71.57.0 u87492038 close "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/instalaciones-electricas-palma-de-mallorca.jpg" bytes read 153383 written 0
+Jul 14 09:31:49 10.71.57.0 u87492038 [10.71.57.0|get|0|153383|0|0|0|2f696d616765732f70726f796563746f732f636f6e737472756363696f6e2d68616269746163696f6e65732d686f74656c2d70616c6d612d64652d6d616c6c6f7263612f696e7374616c6163696f6e65732d656c65637472696361732d70616c6d612d64652d6d616c6c6f7263612e6a7067|]
+Jul 14 09:31:49 10.71.57.0 u87492038 close "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/montaje-puerta-hotel-palma-de-mallorca.jpg" bytes read 180649 written 0
+Jul 14 09:31:49 10.71.57.0 u87492038 [10.71.57.0|get|0|180649|0|0|0|2f696d616765732f70726f796563746f732f636f6e737472756363696f6e2d68616269746163696f6e65732d686f74656c2d70616c6d612d64652d6d616c6c6f7263612f6d6f6e74616a652d7075657274612d686f74656c2d70616c6d612d64652d6d616c6c6f7263612e6a7067|]
+Jul 14 09:31:49 10.71.57.0 u87492038 open "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/conversion-bar-habitaciones-hotel-palma-de-mallorca.jpg" flags READ mode 0666
+Jul 14 09:31:49 10.71.57.0 u87492038 open "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/construccion-tabiques-pladur-hotel-palma-de-mallorca.jpg" flags READ mode 0666
+Jul 14 09:31:50 10.71.57.0 u87492038 close "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/conversion-bar-habitaciones-hotel-palma-de-mallorca.jpg" bytes read 129698 written 0
+Jul 14 09:31:50 10.71.57.0 u87492038 [10.71.57.0|get|1|129698|0|0|0|2f696d616765732f70726f796563746f732f636f6e737472756363696f6e2d68616269746163696f6e65732d686f74656c2d70616c6d612d64652d6d616c6c6f7263612f636f6e76657273696f6e2d6261722d68616269746163696f6e65732d686f74656c2d70616c6d612d64652d6d616c6c6f7263612e6a7067|]
+Jul 14 09:31:50 10.71.57.0 u87492038 close "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/construccion-tabiques-pladur-hotel-palma-de-mallorca.jpg" bytes read 153361 written 0
+Jul 14 09:31:50 10.71.57.0 u87492038 [10.71.57.0|get|1|153361|0|0|0|2f696d616765732f70726f796563746f732f636f6e737472756363696f6e2d68616269746163696f6e65732d686f74656c2d70616c6d612d64652d6d616c6c6f7263612f636f6e737472756363696f6e2d74616269717565732d706c616475722d686f74656c2d70616c6d612d64652d6d616c6c6f7263612e6a7067|]
+Jul 14 09:31:50 10.71.57.0 u87492038 open "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/construccion-reforma-banos-palma-de-mallorca.jpg" flags READ mode 0666
+Jul 14 09:31:50 10.71.57.0 u87492038 open "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/construccion-habitaciones-hotel-palma-de-mallorca-top-960.jpg" flags READ mode 0666
+Jul 14 09:31:50 10.71.57.0 u87492038 close "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/construccion-reforma-banos-palma-de-mallorca.jpg" bytes read 152875 written 0
+Jul 14 09:31:50 10.71.57.0 u87492038 [10.71.57.0|get|0|152875|0|0|0|2f696d616765732f70726f796563746f732f636f6e737472756363696f6e2d68616269746163696f6e65732d686f74656c2d70616c6d612d64652d6d616c6c6f7263612f636f6e737472756363696f6e2d7265666f726d612d62616e6f732d70616c6d612d64652d6d616c6c6f7263612e6a7067|]
+Jul 14 09:31:50 10.71.57.0 u87492038 close "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/construccion-habitaciones-hotel-palma-de-mallorca-top-960.jpg" bytes read 154516 written 0
+Jul 14 09:31:50 10.71.57.0 u87492038 [10.71.57.0|get|0|154516|0|0|0|2f696d616765732f70726f796563746f732f636f6e737472756363696f6e2d68616269746163696f6e65732d686f74656c2d70616c6d612d64652d6d616c6c6f7263612f636f6e737472756363696f6e2d68616269746163696f6e65732d686f74656c2d70616c6d612d64652d6d616c6c6f7263612d746f702d3936302e6a7067|]
+Jul 14 09:31:50 10.71.57.0 u87492038 open "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/construccion-habitaciones-hotel-palma-de-mallorca-top-767.jpg" flags READ mode 0666
+Jul 14 09:31:50 10.71.57.0 u87492038 open "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/construccion-habitaciones-hotel-palma-de-mallorca-top-1920.jpg" flags READ mode 0666
+Jul 14 09:31:50 10.71.57.0 u87492038 close "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/construccion-habitaciones-hotel-palma-de-mallorca-top-767.jpg" bytes read 133832 written 0
+Jul 14 09:31:50 10.71.57.0 u87492038 [10.71.57.0|get|0|133832|0|0|0|2f696d616765732f70726f796563746f732f636f6e737472756363696f6e2d68616269746163696f6e65732d686f74656c2d70616c6d612d64652d6d616c6c6f7263612f636f6e737472756363696f6e2d68616269746163696f6e65732d686f74656c2d70616c6d612d64652d6d616c6c6f7263612d746f702d3736372e6a7067|]
+Jul 14 09:31:50 10.71.57.0 u87492038 close "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/construccion-habitaciones-hotel-palma-de-mallorca-top-1920.jpg" bytes read 530175 written 0
+Jul 14 09:31:50 10.71.57.0 u87492038 [10.71.57.0|get|0|530175|0|0|0|2f696d616765732f70726f796563746f732f636f6e737472756363696f6e2d68616269746163696f6e65732d686f74656c2d70616c6d612d64652d6d616c6c6f7263612f636f6e737472756363696f6e2d68616269746163696f6e65732d686f74656c2d70616c6d612d64652d6d616c6c6f7263612d746f702d313932302e6a7067|]
+Jul 14 09:31:50 10.71.57.0 u87492038 open "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/amueblamiento-habitaciones-hotel-palma-de-mallorca-2.jpg" flags READ mode 0666
+Jul 14 09:31:50 10.71.57.0 u87492038 open "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/amueblamiento-habitaciones-hotel-palma-de-mallorca-1.jpg" flags READ mode 0666
+Jul 14 09:31:50 10.71.57.0 u87492038 close "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/amueblamiento-habitaciones-hotel-palma-de-mallorca-2.jpg" bytes read 193638 written 0
+Jul 14 09:31:50 10.71.57.0 u87492038 [10.71.57.0|get|0|193638|0|0|0|2f696d616765732f70726f796563746f732f636f6e737472756363696f6e2d68616269746163696f6e65732d686f74656c2d70616c6d612d64652d6d616c6c6f7263612f616d7565626c616d69656e746f2d68616269746163696f6e65732d686f74656c2d70616c6d612d64652d6d616c6c6f7263612d322e6a7067|]
+Jul 14 09:31:50 10.71.57.0 u87492038 close "/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/amueblamiento-habitaciones-hotel-palma-de-mallorca-1.jpg" bytes read 185848 written 0
+Jul 14 09:31:50 10.71.57.0 u87492038 [10.71.57.0|get|0|185848|0|0|0|2f696d616765732f70726f796563746f732f636f6e737472756363696f6e2d68616269746163696f6e65732d686f74656c2d70616c6d612d64652d6d616c6c6f7263612f616d7565626c616d69656e746f2d68616269746163696f6e65732d686f74656c2d70616c6d612d64652d6d616c6c6f7263612d312e6a7067|]
+Jul 14 09:31:51 10.71.57.0 u87492038 open "/images/proyectos/diseno-interior-atico-campanet-mallorca/diseno-interior-atico-campanet-mallorca-top-960.jpg" flags READ mode 0666
+Jul 14 09:31:51 10.71.57.0 u87492038 open "/images/proyectos/diseno-interior-atico-campanet-mallorca/diseno-interior-atico-campanet-mallorca-top-767.jpg" flags READ mode 0666
+Jul 14 09:31:51 10.71.57.0 u87492038 close "/images/proyectos/diseno-interior-atico-campanet-mallorca/diseno-interior-atico-campanet-mallorca-top-960.jpg" bytes read 71889 written 0
+Jul 14 09:31:51 10.71.57.0 u87492038 [10.71.57.0|get|0|71889|0|0|0|2f696d616765732f70726f796563746f732f646973656e6f2d696e746572696f722d617469636f2d63616d70616e65742d6d616c6c6f7263612f646973656e6f2d696e746572696f722d617469636f2d63616d70616e65742d6d616c6c6f7263612d746f702d3936302e6a7067|]
+Jul 14 09:31:51 10.71.57.0 u87492038 close "/images/proyectos/diseno-interior-atico-campanet-mallorca/diseno-interior-atico-campanet-mallorca-top-767.jpg" bytes read 57325 written 0
+Jul 14 09:31:51 10.71.57.0 u87492038 [10.71.57.0|get|0|57325|0|0|0|2f696d616765732f70726f796563746f732f646973656e6f2d696e746572696f722d617469636f2d63616d70616e65742d6d616c6c6f7263612f646973656e6f2d696e746572696f722d617469636f2d63616d70616e65742d6d616c6c6f7263612d746f702d3736372e6a7067|]
+Jul 14 09:31:51 10.71.57.0 u87492038 open "/images/proyectos/diseno-interior-atico-campanet-mallorca/diseno-interior-atico-campanet-mallorca-top-1920.jpg" flags READ mode 0666
+Jul 14 09:31:51 10.71.57.0 u87492038 open "/images/proyectos/diseno-interior-atico-campanet-mallorca/diseno-interior-atico-campanet-mallorca-7.jpg" flags READ mode 0666
+Jul 14 09:31:51 10.71.57.0 u87492038 close "/images/proyectos/diseno-interior-atico-campanet-mallorca/diseno-interior-atico-campanet-mallorca-top-1920.jpg" bytes read 217610 written 0
+Jul 14 09:31:51 10.71.57.0 u87492038 [10.71.57.0|get|0|217610|0|0|0|2f696d616765732f70726f796563746f732f646973656e6f2d696e746572696f722d617469636f2d63616d70616e65742d6d616c6c6f7263612f646973656e6f2d696e746572696f722d617469636f2d63616d70616e65742d6d616c6c6f7263612d746f702d313932302e6a7067|]
+Jul 14 09:31:51 10.71.57.0 u87492038 close "/images/proyectos/diseno-interior-atico-campanet-mallorca/diseno-interior-atico-campanet-mallorca-7.jpg" bytes read 119107 written 0
+Jul 14 09:31:51 10.71.57.0 u87492038 [10.71.57.0|get|0|119107|0|0|0|2f696d616765732f70726f796563746f732f646973656e6f2d696e746572696f722d617469636f2d63616d70616e65742d6d616c6c6f7263612f646973656e6f2d696e746572696f722d617469636f2d63616d70616e65742d6d616c6c6f7263612d372e6a7067|]
+Jul 14 09:31:51 10.71.57.0 u87492038 open "/images/proyectos/diseno-interior-atico-campanet-mallorca/diseno-interior-atico-campanet-mallorca-6.jpg" flags READ mode 0666
+Jul 14 09:31:51 10.71.57.0 u87492038 open "/images/proyectos/diseno-interior-atico-campanet-mallorca/diseno-interior-atico-campanet-mallorca-5.jpg" flags READ mode 0666
+Jul 14 09:31:51 10.71.57.0 u87492038 close "/images/proyectos/diseno-interior-atico-campanet-mallorca/diseno-interior-atico-campanet-mallorca-6.jpg" bytes read 101467 written 0
+Jul 14 09:31:51 10.71.57.0 u87492038 [10.71.57.0|get|0|101467|0|0|0|2f696d616765732f70726f796563746f732f646973656e6f2d696e746572696f722d617469636f2d63616d70616e65742d6d616c6c6f7263612f646973656e6f2d696e746572696f722d617469636f2d63616d70616e65742d6d616c6c6f7263612d362e6a7067|]
+Jul 14 09:31:51 10.71.57.0 u87492038 open "/images/proyectos/diseno-interior-atico-campanet-mallorca/diseno-interior-atico-campanet-mallorca-4.jpg" flags READ mode 0666
+Jul 14 09:31:51 10.71.57.0 u87492038 close "/images/proyectos/diseno-interior-atico-campanet-mallorca/diseno-interior-atico-campanet-mallorca-5.jpg" bytes read 123067 written 0
+Jul 14 09:31:51 10.71.57.0 u87492038 [10.71.57.0|get|0|123067|0|0|0|2f696d616765732f70726f796563746f732f646973656e6f2d696e746572696f722d617469636f2d63616d70616e65742d6d616c6c6f7263612f646973656e6f2d696e746572696f722d617469636f2d63616d70616e65742d6d616c6c6f7263612d352e6a7067|]
+Jul 14 09:31:52 10.71.57.0 u87492038 open "/images/proyectos/diseno-interior-atico-campanet-mallorca/diseno-interior-atico-campanet-mallorca-3.jpg" flags READ mode 0666
+Jul 14 09:31:52 10.71.57.0 u87492038 close "/images/proyectos/diseno-interior-atico-campanet-mallorca/diseno-interior-atico-campanet-mallorca-4.jpg" bytes read 114794 written 0
+Jul 14 09:31:52 10.71.57.0 u87492038 [10.71.57.0|get|1|114794|0|0|0|2f696d616765732f70726f796563746f732f646973656e6f2d696e746572696f722d617469636f2d63616d70616e65742d6d616c6c6f7263612f646973656e6f2d696e746572696f722d617469636f2d63616d70616e65742d6d616c6c6f7263612d342e6a7067|]
+Jul 14 09:31:52 10.71.57.0 u87492038 open "/images/proyectos/diseno-interior-atico-campanet-mallorca/diseno-interior-atico-campanet-mallorca-2.jpg" flags READ mode 0666
+Jul 14 09:31:52 10.71.57.0 u87492038 close "/images/proyectos/diseno-interior-atico-campanet-mallorca/diseno-interior-atico-campanet-mallorca-3.jpg" bytes read 128038 written 0
+Jul 14 09:31:52 10.71.57.0 u87492038 [10.71.57.0|get|0|128038|0|0|0|2f696d616765732f70726f796563746f732f646973656e6f2d696e746572696f722d617469636f2d63616d70616e65742d6d616c6c6f7263612f646973656e6f2d696e746572696f722d617469636f2d63616d70616e65742d6d616c6c6f7263612d332e6a7067|]
+Jul 14 09:31:52 10.71.57.0 u87492038 close "/images/proyectos/diseno-interior-atico-campanet-mallorca/diseno-interior-atico-campanet-mallorca-2.jpg" bytes read 127575 written 0
+Jul 14 09:31:52 10.71.57.0 u87492038 [10.71.57.0|get|0|127575|0|0|0|2f696d616765732f70726f796563746f732f646973656e6f2d696e746572696f722d617469636f2d63616d70616e65742d6d616c6c6f7263612f646973656e6f2d696e746572696f722d617469636f2d63616d70616e65742d6d616c6c6f7263612d322e6a7067|]
+Jul 14 09:31:52 10.71.57.0 u87492038 open "/images/proyectos/diseno-interior-atico-campanet-mallorca/diseno-interior-atico-campanet-mallorca-1.jpg" flags READ mode 0666
+Jul 14 09:31:52 10.71.57.0 u87492038 close "/images/proyectos/diseno-interior-atico-campanet-mallorca/diseno-interior-atico-campanet-mallorca-1.jpg" bytes read 116383 written 0
+Jul 14 09:31:52 10.71.57.0 u87492038 [10.71.57.0|get|0|116383|0|0|0|2f696d616765732f70726f796563746f732f646973656e6f2d696e746572696f722d617469636f2d63616d70616e65742d6d616c6c6f7263612f646973656e6f2d696e746572696f722d617469636f2d63616d70616e65742d6d616c6c6f7263612d312e6a7067|]
+Jul 14 09:31:52 10.71.57.0 u87492038 open "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-top-960.jpg" flags READ mode 0666
+Jul 14 09:31:52 10.71.57.0 u87492038 close "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-top-960.jpg" bytes read 130426 written 0
+Jul 14 09:31:52 10.71.57.0 u87492038 [10.71.57.0|get|0|130426|0|0|0|2f696d616765732f70726f796563746f732f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612d746f702d3936302e6a7067|]
+Jul 14 09:31:52 10.71.57.0 u87492038 open "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-top-767.jpg" flags READ mode 0666
+Jul 14 09:31:52 10.71.57.0 u87492038 open "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-top-1920.jpg" flags READ mode 0666
+Jul 14 09:31:52 10.71.57.0 u87492038 close "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-top-767.jpg" bytes read 57640 written 0
+Jul 14 09:31:52 10.71.57.0 u87492038 [10.71.57.0|get|0|57640|0|0|0|2f696d616765732f70726f796563746f732f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612d746f702d3736372e6a7067|]
+Jul 14 09:31:52 10.71.57.0 u87492038 close "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-top-1920.jpg" bytes read 218483 written 0
+Jul 14 09:31:52 10.71.57.0 u87492038 [10.71.57.0|get|0|218483|0|0|0|2f696d616765732f70726f796563746f732f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612d746f702d313932302e6a7067|]
+Jul 14 09:31:52 10.71.57.0 u87492038 open "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-9.jpg" flags READ mode 0666
+Jul 14 09:31:53 10.71.57.0 u87492038 open "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-8.jpg" flags READ mode 0666
+Jul 14 09:31:53 10.71.57.0 u87492038 close "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-9.jpg" bytes read 200304 written 0
+Jul 14 09:31:53 10.71.57.0 u87492038 [10.71.57.0|get|1|200304|0|0|0|2f696d616765732f70726f796563746f732f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612d392e6a7067|]
+Jul 14 09:31:53 10.71.57.0 u87492038 close "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-8.jpg" bytes read 131397 written 0
+Jul 14 09:31:53 10.71.57.0 u87492038 [10.71.57.0|get|0|131397|0|0|0|2f696d616765732f70726f796563746f732f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612d382e6a7067|]
+Jul 14 09:31:53 10.71.57.0 u87492038 open "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-7.jpg" flags READ mode 0666
+Jul 14 09:31:53 10.71.57.0 u87492038 open "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-6.jpg" flags READ mode 0666
+Jul 14 09:31:53 10.71.57.0 u87492038 close "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-7.jpg" bytes read 152347 written 0
+Jul 14 09:31:53 10.71.57.0 u87492038 [10.71.57.0|get|0|152347|0|0|0|2f696d616765732f70726f796563746f732f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612d372e6a7067|]
+Jul 14 09:31:53 10.71.57.0 u87492038 close "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-6.jpg" bytes read 132297 written 0
+Jul 14 09:31:53 10.71.57.0 u87492038 [10.71.57.0|get|0|132297|0|0|0|2f696d616765732f70726f796563746f732f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612d362e6a7067|]
+Jul 14 09:31:53 10.71.57.0 u87492038 open "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-5.JPG" flags READ mode 0666
+Jul 14 09:31:53 10.71.57.0 u87492038 open "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-4.JPG" flags READ mode 0666
+Jul 14 09:31:53 10.71.57.0 u87492038 close "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-5.JPG" bytes read 65969 written 0
+Jul 14 09:31:53 10.71.57.0 u87492038 [10.71.57.0|get|0|65969|0|0|0|2f696d616765732f70726f796563746f732f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612d352e4a5047|]
+Jul 14 09:31:53 10.71.57.0 u87492038 close "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-4.JPG" bytes read 134506 written 0
+Jul 14 09:31:53 10.71.57.0 u87492038 [10.71.57.0|get|0|134506|0|0|0|2f696d616765732f70726f796563746f732f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612d342e4a5047|]
+Jul 14 09:31:53 10.71.57.0 u87492038 open "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-3.JPG" flags READ mode 0666
+Jul 14 09:31:53 10.71.57.0 u87492038 open "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-2.JPG" flags READ mode 0666
+Jul 14 09:31:53 10.71.57.0 u87492038 close "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-3.JPG" bytes read 83145 written 0
+Jul 14 09:31:53 10.71.57.0 u87492038 [10.71.57.0|get|0|83145|0|0|0|2f696d616765732f70726f796563746f732f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612d332e4a5047|]
+Jul 14 09:31:54 10.71.57.0 u87492038 close "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-2.JPG" bytes read 86039 written 0
+Jul 14 09:31:54 10.71.57.0 u87492038 [10.71.57.0|get|1|86039|0|0|0|2f696d616765732f70726f796563746f732f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612d322e4a5047|]
+Jul 14 09:31:54 10.71.57.0 u87492038 open "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-10.jpg" flags READ mode 0666
+Jul 14 09:31:54 10.71.57.0 u87492038 open "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-1.JPG" flags READ mode 0666
+Jul 14 09:31:54 10.71.57.0 u87492038 close "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-10.jpg" bytes read 180723 written 0
+Jul 14 09:31:54 10.71.57.0 u87492038 [10.71.57.0|get|0|180723|0|0|0|2f696d616765732f70726f796563746f732f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612d31302e6a7067|]
+Jul 14 09:31:54 10.71.57.0 u87492038 close "/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-1.JPG" bytes read 102102 written 0
+Jul 14 09:31:54 10.71.57.0 u87492038 [10.71.57.0|get|0|102102|0|0|0|2f696d616765732f70726f796563746f732f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612f646973656e6f2d7265666f726d612d62616e6f2d63616c612d6d7561726164612d6d616c6c6f7263612d312e4a5047|]
+Jul 14 09:31:54 10.71.57.0 u87492038 open "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/sellado-final-bordes-terraza-son-servera-mallorca.jpg" flags READ mode 0666
+Jul 14 09:31:54 10.71.57.0 u87492038 open "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/resultado-reforma-aislamiento-terraza-son-servera-mallorca.jpg" flags READ mode 0666
+Jul 14 09:31:54 10.71.57.0 u87492038 close "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/sellado-final-bordes-terraza-son-servera-mallorca.jpg" bytes read 225952 written 0
+Jul 14 09:31:54 10.71.57.0 u87492038 [10.71.57.0|get|0|225952|0|0|0|2f696d616765732f70726f796563746f732f696d7065726d656162696c697a6163696f6e2d74657272617a612d617a6f7465612d736f6e2d736572766572612d6d616c6c6f7263612f73656c6c61646f2d66696e616c2d626f726465732d74657272617a612d736f6e2d736572766572612d6d616c6c6f7263612e6a7067|]
+Jul 14 09:31:54 10.71.57.0 u87492038 close "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/resultado-reforma-aislamiento-terraza-son-servera-mallorca.jpg" bytes read 150813 written 0
+Jul 14 09:31:54 10.71.57.0 u87492038 [10.71.57.0|get|0|150813|0|0|0|2f696d616765732f70726f796563746f732f696d7065726d656162696c697a6163696f6e2d74657272617a612d617a6f7465612d736f6e2d736572766572612d6d616c6c6f7263612f726573756c7461646f2d7265666f726d612d6169736c616d69656e746f2d74657272617a612d736f6e2d736572766572612d6d616c6c6f7263612e6a7067|]
+Jul 14 09:31:54 10.71.57.0 u87492038 open "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/preparacion-limpieza-terraza-reforma-son-servera-mallorca.jpg" flags READ mode 0666
+Jul 14 09:31:54 10.71.57.0 u87492038 open "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/impermeabilizacion-terraza-azotea-son-servera-mallorca-top-960.jpg" flags READ mode 0666
+Jul 14 09:31:54 10.71.57.0 u87492038 close "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/preparacion-limpieza-terraza-reforma-son-servera-mallorca.jpg" bytes read 337628 written 0
+Jul 14 09:31:54 10.71.57.0 u87492038 [10.71.57.0|get|0|337628|0|0|0|2f696d616765732f70726f796563746f732f696d7065726d656162696c697a6163696f6e2d74657272617a612d617a6f7465612d736f6e2d736572766572612d6d616c6c6f7263612f7072657061726163696f6e2d6c696d7069657a612d74657272617a612d7265666f726d612d736f6e2d736572766572612d6d616c6c6f7263612e6a7067|]
+Jul 14 09:31:54 10.71.57.0 u87492038 close "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/impermeabilizacion-terraza-azotea-son-servera-mallorca-top-960.jpg" bytes read 166422 written 0
+Jul 14 09:31:54 10.71.57.0 u87492038 [10.71.57.0|get|0|166422|0|0|0|2f696d616765732f70726f796563746f732f696d7065726d656162696c697a6163696f6e2d74657272617a612d617a6f7465612d736f6e2d736572766572612d6d616c6c6f7263612f696d7065726d656162696c697a6163696f6e2d74657272617a612d617a6f7465612d736f6e2d736572766572612d6d616c6c6f7263612d746f702d3936302e6a7067|]
+Jul 14 09:31:55 10.71.57.0 u87492038 open "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/impermeabilizacion-terraza-azotea-son-servera-mallorca-top-767.jpg" flags READ mode 0666
+Jul 14 09:31:55 10.71.57.0 u87492038 open "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/impermeabilizacion-terraza-azotea-son-servera-mallorca-top-1920.jpg" flags READ mode 0666
+Jul 14 09:31:55 10.71.57.0 u87492038 close "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/impermeabilizacion-terraza-azotea-son-servera-mallorca-top-767.jpg" bytes read 143669 written 0
+Jul 14 09:31:55 10.71.57.0 u87492038 [10.71.57.0|get|0|143669|0|0|0|2f696d616765732f70726f796563746f732f696d7065726d656162696c697a6163696f6e2d74657272617a612d617a6f7465612d736f6e2d736572766572612d6d616c6c6f7263612f696d7065726d656162696c697a6163696f6e2d74657272617a612d617a6f7465612d736f6e2d736572766572612d6d616c6c6f7263612d746f702d3736372e6a7067|]
+Jul 14 09:31:55 10.71.57.0 u87492038 close "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/impermeabilizacion-terraza-azotea-son-servera-mallorca-top-1920.jpg" bytes read 626661 written 0
+Jul 14 09:31:55 10.71.57.0 u87492038 [10.71.57.0|get|0|626661|0|0|0|2f696d616765732f70726f796563746f732f696d7065726d656162696c697a6163696f6e2d74657272617a612d617a6f7465612d736f6e2d736572766572612d6d616c6c6f7263612f696d7065726d656162696c697a6163696f6e2d74657272617a612d617a6f7465612d736f6e2d736572766572612d6d616c6c6f7263612d746f702d313932302e6a7067|]
+Jul 14 09:31:55 10.71.57.0 u87492038 open "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/impermeabilizacion-grietas-terraza-son-servera-mallorca.jpg" flags READ mode 0666
+Jul 14 09:31:55 10.71.57.0 u87492038 open "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/impermeabilizacion-bordes-terraza-azotea-son-servera-mallorca.jpg" flags READ mode 0666
+Jul 14 09:31:55 10.71.57.0 u87492038 close "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/impermeabilizacion-grietas-terraza-son-servera-mallorca.jpg" bytes read 287340 written 0
+Jul 14 09:31:55 10.71.57.0 u87492038 [10.71.57.0|get|0|287340|0|0|0|2f696d616765732f70726f796563746f732f696d7065726d656162696c697a6163696f6e2d74657272617a612d617a6f7465612d736f6e2d736572766572612d6d616c6c6f7263612f696d7065726d656162696c697a6163696f6e2d677269657461732d74657272617a612d736f6e2d736572766572612d6d616c6c6f7263612e6a7067|]
+Jul 14 09:31:55 10.71.57.0 u87492038 close "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/impermeabilizacion-bordes-terraza-azotea-son-servera-mallorca.jpg" bytes read 290726 written 0
+Jul 14 09:31:55 10.71.57.0 u87492038 [10.71.57.0|get|0|290726|0|0|0|2f696d616765732f70726f796563746f732f696d7065726d656162696c697a6163696f6e2d74657272617a612d617a6f7465612d736f6e2d736572766572612d6d616c6c6f7263612f696d7065726d656162696c697a6163696f6e2d626f726465732d74657272617a612d617a6f7465612d736f6e2d736572766572612d6d616c6c6f7263612e6a7067|]
+Jul 14 09:31:55 10.71.57.0 u87492038 open "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/detalle-resultado-reforma-terraza-son-servera-mallorca.jpg" flags READ mode 0666
+Jul 14 09:31:55 10.71.57.0 u87492038 open "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/capa-final-sellado-terraza-son-servera-mallorca.jpg" flags READ mode 0666
+Jul 14 09:31:55 10.71.57.0 u87492038 close "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/detalle-resultado-reforma-terraza-son-servera-mallorca.jpg" bytes read 238000 written 0
+Jul 14 09:31:55 10.71.57.0 u87492038 [10.71.57.0|get|0|238000|0|0|0|2f696d616765732f70726f796563746f732f696d7065726d656162696c697a6163696f6e2d74657272617a612d617a6f7465612d736f6e2d736572766572612d6d616c6c6f7263612f646574616c6c652d726573756c7461646f2d7265666f726d612d74657272617a612d736f6e2d736572766572612d6d616c6c6f7263612e6a7067|]
+Jul 14 09:31:55 10.71.57.0 u87492038 close "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/capa-final-sellado-terraza-son-servera-mallorca.jpg" bytes read 188831 written 0
+Jul 14 09:31:55 10.71.57.0 u87492038 [10.71.57.0|get|0|188831|0|0|0|2f696d616765732f70726f796563746f732f696d7065726d656162696c697a6163696f6e2d74657272617a612d617a6f7465612d736f6e2d736572766572612d6d616c6c6f7263612f636170612d66696e616c2d73656c6c61646f2d74657272617a612d736f6e2d736572766572612d6d616c6c6f7263612e6a7067|]
+Jul 14 09:31:55 10.71.57.0 u87492038 open "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/aplicacion-sellador-terraza-son-servera-mallorca.jpg" flags READ mode 0666
+Jul 14 09:31:55 10.71.57.0 u87492038 open "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/antes-despues-reforma-terraza-son-servera-mallorca.jpg" flags READ mode 0666
+Jul 14 09:31:56 10.71.57.0 u87492038 close "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/aplicacion-sellador-terraza-son-servera-mallorca.jpg" bytes read 233912 written 0
+Jul 14 09:31:56 10.71.57.0 u87492038 [10.71.57.0|get|1|233912|0|0|0|2f696d616765732f70726f796563746f732f696d7065726d656162696c697a6163696f6e2d74657272617a612d617a6f7465612d736f6e2d736572766572612d6d616c6c6f7263612f61706c69636163696f6e2d73656c6c61646f722d74657272617a612d736f6e2d736572766572612d6d616c6c6f7263612e6a7067|]
+Jul 14 09:31:56 10.71.57.0 u87492038 close "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/antes-despues-reforma-terraza-son-servera-mallorca.jpg" bytes read 287810 written 0
+Jul 14 09:31:56 10.71.57.0 u87492038 [10.71.57.0|get|1|287810|0|0|0|2f696d616765732f70726f796563746f732f696d7065726d656162696c697a6163696f6e2d74657272617a612d617a6f7465612d736f6e2d736572766572612d6d616c6c6f7263612f616e7465732d646573707565732d7265666f726d612d74657272617a612d736f6e2d736572766572612d6d616c6c6f7263612e6a7067|]
+Jul 14 09:31:56 10.71.57.0 u87492038 open "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/aislamiento-malla-terraza-son-servera-mallorca.jpg" flags READ mode 0666
+Jul 14 09:31:56 10.71.57.0 u87492038 open "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/aislamiento-resina-epoxi-terraza-son-servera-mallorca.jpg" flags READ mode 0666
+Jul 14 09:31:56 10.71.57.0 u87492038 close "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/aislamiento-malla-terraza-son-servera-mallorca.jpg" bytes read 204223 written 0
+Jul 14 09:31:56 10.71.57.0 u87492038 [10.71.57.0|get|0|204223|0|0|0|2f696d616765732f70726f796563746f732f696d7065726d656162696c697a6163696f6e2d74657272617a612d617a6f7465612d736f6e2d736572766572612d6d616c6c6f7263612f6169736c616d69656e746f2d6d616c6c612d74657272617a612d736f6e2d736572766572612d6d616c6c6f7263612e6a7067|]
+Jul 14 09:31:56 10.71.57.0 u87492038 close "/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/aislamiento-resina-epoxi-terraza-son-servera-mallorca.jpg" bytes read 249360 written 0
+Jul 14 09:31:56 10.71.57.0 u87492038 [10.71.57.0|get|0|249360|0|0|0|2f696d616765732f70726f796563746f732f696d7065726d656162696c697a6163696f6e2d74657272617a612d617a6f7465612d736f6e2d736572766572612d6d616c6c6f7263612f6169736c616d69656e746f2d726573696e612d65706f78692d74657272617a612d736f6e2d736572766572612d6d616c6c6f7263612e6a7067|]
+Jul 14 09:31:56 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-top-960.jpg" flags READ mode 0666
+Jul 14 09:31:56 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-top-767.jpg" flags READ mode 0666
+Jul 14 09:31:56 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-top-960.jpg" bytes read 286064 written 0
+Jul 14 09:31:56 10.71.57.0 u87492038 [10.71.57.0|get|0|286064|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612d746f702d3936302e6a7067|]
+Jul 14 09:31:56 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-top-767.jpg" bytes read 87119 written 0
+Jul 14 09:31:56 10.71.57.0 u87492038 [10.71.57.0|get|0|87119|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612d746f702d3736372e6a7067|]
+Jul 14 09:31:56 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-top-1920.jpg" flags READ mode 0666
+Jul 14 09:31:56 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-9.jpg" flags READ mode 0666
+Jul 14 09:31:57 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-9.jpg" bytes read 246062 written 0
+Jul 14 09:31:57 10.71.57.0 u87492038 [10.71.57.0|get|1|246062|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612d392e6a7067|]
+Jul 14 09:31:57 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-top-1920.jpg" bytes read 299381 written 0
+Jul 14 09:31:57 10.71.57.0 u87492038 [10.71.57.0|get|1|299381|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612d746f702d313932302e6a7067|]
+Jul 14 09:31:57 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-8.jpg" flags READ mode 0666
+Jul 14 09:31:57 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-7.jpg" flags READ mode 0666
+Jul 14 09:31:57 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-8.jpg" bytes read 82893 written 0
+Jul 14 09:31:57 10.71.57.0 u87492038 [10.71.57.0|get|0|82893|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612d382e6a7067|]
+Jul 14 09:31:57 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-7.jpg" bytes read 130362 written 0
+Jul 14 09:31:57 10.71.57.0 u87492038 [10.71.57.0|get|0|130362|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612d372e6a7067|]
+Jul 14 09:31:57 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-6.jpg" flags READ mode 0666
+Jul 14 09:31:57 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-5.jpg" flags READ mode 0666
+Jul 14 09:31:57 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-6.jpg" bytes read 131471 written 0
+Jul 14 09:31:57 10.71.57.0 u87492038 [10.71.57.0|get|0|131471|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612d362e6a7067|]
+Jul 14 09:31:57 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-5.jpg" bytes read 144112 written 0
+Jul 14 09:31:57 10.71.57.0 u87492038 [10.71.57.0|get|0|144112|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612d352e6a7067|]
+Jul 14 09:31:57 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-4.jpg" flags READ mode 0666
+Jul 14 09:31:57 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-3.jpg" flags READ mode 0666
+Jul 14 09:31:57 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-3.jpg" bytes read 130433 written 0
+Jul 14 09:31:57 10.71.57.0 u87492038 [10.71.57.0|get|0|130433|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612d332e6a7067|]
+Jul 14 09:31:58 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-4.jpg" bytes read 543652 written 0
+Jul 14 09:31:58 10.71.57.0 u87492038 [10.71.57.0|get|1|543652|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612d342e6a7067|]
+Jul 14 09:31:58 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-2.jpg" flags READ mode 0666
+Jul 14 09:31:58 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-10.jpg" flags READ mode 0666
+Jul 14 09:31:58 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-2.jpg" bytes read 118539 written 0
+Jul 14 09:31:58 10.71.57.0 u87492038 [10.71.57.0|get|0|118539|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612d322e6a7067|]
+Jul 14 09:31:58 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-10.jpg" bytes read 284249 written 0
+Jul 14 09:31:58 10.71.57.0 u87492038 [10.71.57.0|get|0|284249|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612d31302e6a7067|]
+Jul 14 09:31:58 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-1.jpg" flags READ mode 0666
+Jul 14 09:31:58 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-1.jpg" bytes read 131980 written 0
+Jul 14 09:31:58 10.71.57.0 u87492038 [10.71.57.0|get|0|131980|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d63616d70616e65742d6d616c6c6f7263612d312e6a7067|]
+Jul 14 09:31:58 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-top-960.jpg" flags READ mode 0666
+Jul 14 09:31:58 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-top-960.jpg" bytes read 99929 written 0
+Jul 14 09:31:58 10.71.57.0 u87492038 [10.71.57.0|get|0|99929|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612d746f702d3936302e6a7067|]
+Jul 14 09:31:58 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-top-767.jpg" flags READ mode 0666
+Jul 14 09:31:58 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-top-1920.jpg" flags READ mode 0666
+Jul 14 09:31:58 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-top-767.jpg" bytes read 119422 written 0
+Jul 14 09:31:58 10.71.57.0 u87492038 [10.71.57.0|get|0|119422|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612d746f702d3736372e6a7067|]
+Jul 14 09:31:59 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-6.jpg" flags READ mode 0666
+Jul 14 09:31:59 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-top-1920.jpg" bytes read 352907 written 0
+Jul 14 09:31:59 10.71.57.0 u87492038 [10.71.57.0|get|1|352907|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612d746f702d313932302e6a7067|]
+Jul 14 09:31:59 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-5.jpg" flags READ mode 0666
+Jul 14 09:31:59 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-6.jpg" bytes read 121942 written 0
+Jul 14 09:31:59 10.71.57.0 u87492038 [10.71.57.0|get|0|121942|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612d362e6a7067|]
+Jul 14 09:31:59 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-4.jpg" flags READ mode 0666
+Jul 14 09:31:59 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-5.jpg" bytes read 161444 written 0
+Jul 14 09:31:59 10.71.57.0 u87492038 [10.71.57.0|get|0|161444|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612d352e6a7067|]
+Jul 14 09:31:59 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-4.jpg" bytes read 128468 written 0
+Jul 14 09:31:59 10.71.57.0 u87492038 [10.71.57.0|get|0|128468|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612d342e6a7067|]
+Jul 14 09:31:59 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-3.jpg" flags READ mode 0666
+Jul 14 09:31:59 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-2.jpg" flags READ mode 0666
+Jul 14 09:31:59 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-3.jpg" bytes read 105058 written 0
+Jul 14 09:31:59 10.71.57.0 u87492038 [10.71.57.0|get|0|105058|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612d332e6a7067|]
+Jul 14 09:31:59 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-2.jpg" bytes read 184554 written 0
+Jul 14 09:31:59 10.71.57.0 u87492038 [10.71.57.0|get|0|184554|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612d322e6a7067|]
+Jul 14 09:31:59 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-14.jpg" flags READ mode 0666
+Jul 14 09:31:59 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-13.jpg" flags READ mode 0666
+Jul 14 09:31:59 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-14.jpg" bytes read 159125 written 0
+Jul 14 09:31:59 10.71.57.0 u87492038 [10.71.57.0|get|0|159125|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612d31342e6a7067|]
+Jul 14 09:31:59 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-13.jpg" bytes read 162722 written 0
+Jul 14 09:31:59 10.71.57.0 u87492038 [10.71.57.0|get|0|162722|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612d31332e6a7067|]
+Jul 14 09:32:00 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-12.jpg" flags READ mode 0666
+Jul 14 09:32:00 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-11.jpg" flags READ mode 0666
+Jul 14 09:32:00 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-12.jpg" bytes read 185491 written 0
+Jul 14 09:32:00 10.71.57.0 u87492038 [10.71.57.0|get|0|185491|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612d31322e6a7067|]
+Jul 14 09:32:00 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-11.jpg" bytes read 120610 written 0
+Jul 14 09:32:00 10.71.57.0 u87492038 [10.71.57.0|get|0|120610|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612d31312e6a7067|]
+Jul 14 09:32:00 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-1.jpg" flags READ mode 0666
+Jul 14 09:32:00 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-top-960.jpg" flags READ mode 0666
+Jul 14 09:32:00 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-1.jpg" bytes read 172725 written 0
+Jul 14 09:32:00 10.71.57.0 u87492038 [10.71.57.0|get|0|172725|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d74657272656e6f2d70616c6d612d64652d6d616c6c6f7263612d312e6a7067|]
+Jul 14 09:32:00 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-top-960.jpg" bytes read 94718 written 0
+Jul 14 09:32:00 10.71.57.0 u87492038 [10.71.57.0|get|0|94718|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d746f726f2d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d746f726f2d6d616c6c6f7263612d746f702d3936302e6a7067|]
+Jul 14 09:32:00 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-top-1920.jpg" flags READ mode 0666
+Jul 14 09:32:00 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-top-767.jpg" flags READ mode 0666
+Jul 14 09:32:00 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-top-1920.jpg" bytes read 295341 written 0
+Jul 14 09:32:00 10.71.57.0 u87492038 [10.71.57.0|get|0|295341|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d746f726f2d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d746f726f2d6d616c6c6f7263612d746f702d313932302e6a7067|]
+Jul 14 09:32:00 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-top-767.jpg" bytes read 106941 written 0
+Jul 14 09:32:00 10.71.57.0 u87492038 [10.71.57.0|get|0|106941|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d746f726f2d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d746f726f2d6d616c6c6f7263612d746f702d3736372e6a7067|]
+Jul 14 09:32:01 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-8.jpg" flags READ mode 0666
+Jul 14 09:32:01 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-7.jpg" flags READ mode 0666
+Jul 14 09:32:01 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-8.jpg" bytes read 230026 written 0
+Jul 14 09:32:01 10.71.57.0 u87492038 [10.71.57.0|get|0|230026|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d746f726f2d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d746f726f2d6d616c6c6f7263612d382e6a7067|]
+Jul 14 09:32:01 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-7.jpg" bytes read 166782 written 0
+Jul 14 09:32:01 10.71.57.0 u87492038 [10.71.57.0|get|0|166782|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d746f726f2d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d746f726f2d6d616c6c6f7263612d372e6a7067|]
+Jul 14 09:32:01 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-6.jpg" flags READ mode 0666
+Jul 14 09:32:01 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-5.jpg" flags READ mode 0666
+Jul 14 09:32:01 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-6.jpg" bytes read 141875 written 0
+Jul 14 09:32:01 10.71.57.0 u87492038 [10.71.57.0|get|0|141875|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d746f726f2d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d746f726f2d6d616c6c6f7263612d362e6a7067|]
+Jul 14 09:32:01 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-5.jpg" bytes read 172545 written 0
+Jul 14 09:32:01 10.71.57.0 u87492038 [10.71.57.0|get|0|172545|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d746f726f2d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d746f726f2d6d616c6c6f7263612d352e6a7067|]
+Jul 14 09:32:01 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-4.jpg" flags READ mode 0666
+Jul 14 09:32:01 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-3.jpg" flags READ mode 0666
+Jul 14 09:32:01 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-4.jpg" bytes read 163730 written 0
+Jul 14 09:32:01 10.71.57.0 u87492038 [10.71.57.0|get|0|163730|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d746f726f2d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d746f726f2d6d616c6c6f7263612d342e6a7067|]
+Jul 14 09:32:01 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-3.jpg" bytes read 169298 written 0
+Jul 14 09:32:01 10.71.57.0 u87492038 [10.71.57.0|get|0|169298|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d746f726f2d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d746f726f2d6d616c6c6f7263612d332e6a7067|]
+Jul 14 09:32:01 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-2.jpg" flags READ mode 0666
+Jul 14 09:32:01 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-1.jpg" flags READ mode 0666
+Jul 14 09:32:01 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-2.jpg" bytes read 175525 written 0
+Jul 14 09:32:01 10.71.57.0 u87492038 [10.71.57.0|get|0|175525|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d746f726f2d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d746f726f2d6d616c6c6f7263612d322e6a7067|]
+Jul 14 09:32:02 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-1.jpg" bytes read 160394 written 0
+Jul 14 09:32:02 10.71.57.0 u87492038 [10.71.57.0|get|1|160394|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d617469636f2d656c2d746f726f2d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d617469636f2d656c2d746f726f2d6d616c6c6f7263612d312e6a7067|]
+Jul 14 09:32:02 10.71.57.0 u87492038 open "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/revestimiento-piedra-interior-hotel-cala-murada-mallorca.jpg" flags READ mode 0666
+Jul 14 09:32:02 10.71.57.0 u87492038 open "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/revestimiento-piedra-exterior-hotel-cala-murada-mallorca.jpg" flags READ mode 0666
+Jul 14 09:32:02 10.71.57.0 u87492038 close "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/revestimiento-piedra-interior-hotel-cala-murada-mallorca.jpg" bytes read 221090 written 0
+Jul 14 09:32:02 10.71.57.0 u87492038 [10.71.57.0|get|0|221090|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d72656e6f766163696f6e2d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612f726576657374696d69656e746f2d7069656472612d696e746572696f722d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612e6a7067|]
+Jul 14 09:32:02 10.71.57.0 u87492038 open "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/reforma-renovacion-hotel-cala-murada-mallorca-top-960.jpg" flags READ mode 0666
+Jul 14 09:32:02 10.71.57.0 u87492038 close "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/revestimiento-piedra-exterior-hotel-cala-murada-mallorca.jpg" bytes read 263253 written 0
+Jul 14 09:32:02 10.71.57.0 u87492038 [10.71.57.0|get|0|263253|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d72656e6f766163696f6e2d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612f726576657374696d69656e746f2d7069656472612d6578746572696f722d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612e6a7067|]
+Jul 14 09:32:02 10.71.57.0 u87492038 close "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/reforma-renovacion-hotel-cala-murada-mallorca-top-960.jpg" bytes read 156821 written 0
+Jul 14 09:32:02 10.71.57.0 u87492038 [10.71.57.0|get|0|156821|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d72656e6f766163696f6e2d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612f7265666f726d612d72656e6f766163696f6e2d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612d746f702d3936302e6a7067|]
+Jul 14 09:32:02 10.71.57.0 u87492038 open "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/reforma-renovacion-hotel-cala-murada-mallorca-top-767.jpg" flags READ mode 0666
+Jul 14 09:32:02 10.71.57.0 u87492038 open "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/reforma-renovacion-hotel-cala-murada-mallorca-top-1920.jpg" flags READ mode 0666
+Jul 14 09:32:02 10.71.57.0 u87492038 close "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/reforma-renovacion-hotel-cala-murada-mallorca-top-767.jpg" bytes read 141640 written 0
+Jul 14 09:32:02 10.71.57.0 u87492038 [10.71.57.0|get|0|141640|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d72656e6f766163696f6e2d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612f7265666f726d612d72656e6f766163696f6e2d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612d746f702d3736372e6a7067|]
+Jul 14 09:32:02 10.71.57.0 u87492038 close "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/reforma-renovacion-hotel-cala-murada-mallorca-top-1920.jpg" bytes read 510564 written 0
+Jul 14 09:32:02 10.71.57.0 u87492038 [10.71.57.0|get|0|510564|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d72656e6f766163696f6e2d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612f7265666f726d612d72656e6f766163696f6e2d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612d746f702d313932302e6a7067|]
+Jul 14 09:32:02 10.71.57.0 u87492038 open "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/instalacion-ducha-piscina-hotel-cala-murada-mallorca.jpg" flags READ mode 0666
+Jul 14 09:32:03 10.71.57.0 u87492038 open "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/construccion-ducha-piscina-hotel-cala-murada-mallorca.jpg" flags READ mode 0666
+Jul 14 09:32:03 10.71.57.0 u87492038 close "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/instalacion-ducha-piscina-hotel-cala-murada-mallorca.jpg" bytes read 168549 written 0
+Jul 14 09:32:03 10.71.57.0 u87492038 [10.71.57.0|get|1|168549|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d72656e6f766163696f6e2d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612f696e7374616c6163696f6e2d64756368612d70697363696e612d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612e6a7067|]
+Jul 14 09:32:03 10.71.57.0 u87492038 open "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/construccion-barra-piscina-hotel-cala-murada-mallorca.jpg" flags READ mode 0666
+Jul 14 09:32:03 10.71.57.0 u87492038 close "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/construccion-barra-piscina-hotel-cala-murada-mallorca.jpg" bytes read 169743 written 0
+Jul 14 09:32:03 10.71.57.0 u87492038 [10.71.57.0|get|0|169743|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d72656e6f766163696f6e2d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612f636f6e737472756363696f6e2d62617272612d70697363696e612d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612e6a7067|]
+Jul 14 09:32:03 10.71.57.0 u87492038 close "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/construccion-ducha-piscina-hotel-cala-murada-mallorca.jpg" bytes read 176113 written 0
+Jul 14 09:32:03 10.71.57.0 u87492038 [10.71.57.0|get|0|176113|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d72656e6f766163696f6e2d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612f636f6e737472756363696f6e2d64756368612d70697363696e612d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612e6a7067|]
+Jul 14 09:32:03 10.71.57.0 u87492038 open "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/colocacion-piedra-decorativa-hotel-cala-murada-mallorca.jpg" flags READ mode 0666
+Jul 14 09:32:03 10.71.57.0 u87492038 open "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/colocacion-cabeceros-gres-hotel-cala-murada-mallorca.jpg" flags READ mode 0666
+Jul 14 09:32:03 10.71.57.0 u87492038 close "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/colocacion-piedra-decorativa-hotel-cala-murada-mallorca.jpg" bytes read 244564 written 0
+Jul 14 09:32:03 10.71.57.0 u87492038 [10.71.57.0|get|0|244564|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d72656e6f766163696f6e2d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612f636f6c6f636163696f6e2d7069656472612d6465636f7261746976612d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612e6a7067|]
+Jul 14 09:32:03 10.71.57.0 u87492038 close "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/colocacion-cabeceros-gres-hotel-cala-murada-mallorca.jpg" bytes read 165294 written 0
+Jul 14 09:32:03 10.71.57.0 u87492038 [10.71.57.0|get|0|165294|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d72656e6f766163696f6e2d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612f636f6c6f636163696f6e2d636162656365726f732d677265732d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612e6a7067|]
+Jul 14 09:32:03 10.71.57.0 u87492038 open "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/cabeceros-gres-porcelanosa-hotel-cala-murada-mallorca.jpg" flags READ mode 0666
+Jul 14 09:32:03 10.71.57.0 u87492038 open "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/barra-piscina-hotel-diseno-cala-murada-mallorca.jpg" flags READ mode 0666
+Jul 14 09:32:04 10.71.57.0 u87492038 close "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/barra-piscina-hotel-diseno-cala-murada-mallorca.jpg" bytes read 205645 written 0
+Jul 14 09:32:04 10.71.57.0 u87492038 [10.71.57.0|get|1|205645|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d72656e6f766163696f6e2d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612f62617272612d70697363696e612d686f74656c2d646973656e6f2d63616c612d6d75726164612d6d616c6c6f7263612e6a7067|]
+Jul 14 09:32:04 10.71.57.0 u87492038 close "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/cabeceros-gres-porcelanosa-hotel-cala-murada-mallorca.jpg" bytes read 222010 written 0
+Jul 14 09:32:04 10.71.57.0 u87492038 [10.71.57.0|get|1|222010|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d72656e6f766163696f6e2d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612f636162656365726f732d677265732d706f7263656c616e6f73612d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612e6a7067|]
+Jul 14 09:32:04 10.71.57.0 u87492038 open "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/alicatados-hotel-diseno-cala-murada-mallorca.jpg" flags READ mode 0666
+Jul 14 09:32:04 10.71.57.0 u87492038 open "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/alicatado-barra-piscina-hotel-cala-murada-mallorca.jpg" flags READ mode 0666
+Jul 14 09:32:04 10.71.57.0 u87492038 close "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/alicatado-barra-piscina-hotel-cala-murada-mallorca.jpg" bytes read 211580 written 0
+Jul 14 09:32:04 10.71.57.0 u87492038 [10.71.57.0|get|0|211580|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d72656e6f766163696f6e2d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612f616c6963617461646f2d62617272612d70697363696e612d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612e6a7067|]
+Jul 14 09:32:04 10.71.57.0 u87492038 close "/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/alicatados-hotel-diseno-cala-murada-mallorca.jpg" bytes read 216126 written 0
+Jul 14 09:32:04 10.71.57.0 u87492038 [10.71.57.0|get|0|216126|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d72656e6f766163696f6e2d686f74656c2d63616c612d6d75726164612d6d616c6c6f7263612f616c6963617461646f732d686f74656c2d646973656e6f2d63616c612d6d75726164612d6d616c6c6f7263612e6a7067|]
+Jul 14 09:32:04 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-top-767.jpg" flags READ mode 0666
+Jul 14 09:32:04 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-top-960.jpg" flags READ mode 0666
+Jul 14 09:32:04 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-top-767.jpg" bytes read 193836 written 0
+Jul 14 09:32:04 10.71.57.0 u87492038 [10.71.57.0|get|0|193836|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612d746f702d3736372e6a7067|]
+Jul 14 09:32:04 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-top-960.jpg" bytes read 185023 written 0
+Jul 14 09:32:04 10.71.57.0 u87492038 [10.71.57.0|get|0|185023|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612d746f702d3936302e6a7067|]
+Jul 14 09:32:05 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-top-1920.jpg" flags READ mode 0666
+Jul 14 09:32:05 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-9.jpg" flags READ mode 0666
+Jul 14 09:32:05 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-top-1920.jpg" bytes read 685011 written 0
+Jul 14 09:32:05 10.71.57.0 u87492038 [10.71.57.0|get|0|685011|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612d746f702d313932302e6a7067|]
+Jul 14 09:32:05 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-9.jpg" bytes read 117107 written 0
+Jul 14 09:32:05 10.71.57.0 u87492038 [10.71.57.0|get|0|117107|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612d392e6a7067|]
+Jul 14 09:32:05 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-8.jpg" flags READ mode 0666
+Jul 14 09:32:05 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-7.jpg" flags READ mode 0666
+Jul 14 09:32:05 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-8.jpg" bytes read 304398 written 0
+Jul 14 09:32:05 10.71.57.0 u87492038 [10.71.57.0|get|0|304398|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612d382e6a7067|]
+Jul 14 09:32:05 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-7.jpg" bytes read 466385 written 0
+Jul 14 09:32:05 10.71.57.0 u87492038 [10.71.57.0|get|0|466385|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612d372e6a7067|]
+Jul 14 09:32:05 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-6.jpg" flags READ mode 0666
+Jul 14 09:32:05 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-5.jpg" flags READ mode 0666
+Jul 14 09:32:05 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-6.jpg" bytes read 357731 written 0
+Jul 14 09:32:05 10.71.57.0 u87492038 [10.71.57.0|get|0|357731|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612d362e6a7067|]
+Jul 14 09:32:05 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-5.jpg" bytes read 275613 written 0
+Jul 14 09:32:05 10.71.57.0 u87492038 [10.71.57.0|get|0|275613|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612d352e6a7067|]
+Jul 14 09:32:05 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-4.jpg" flags READ mode 0666
+Jul 14 09:32:05 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-3.jpg" flags READ mode 0666
+Jul 14 09:32:06 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-4.jpg" bytes read 198969 written 0
+Jul 14 09:32:06 10.71.57.0 u87492038 [10.71.57.0|get|1|198969|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612d342e6a7067|]
+Jul 14 09:32:06 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-3.jpg" bytes read 181832 written 0
+Jul 14 09:32:06 10.71.57.0 u87492038 [10.71.57.0|get|1|181832|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612d332e6a7067|]
+Jul 14 09:32:06 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-2.jpg" flags READ mode 0666
+Jul 14 09:32:06 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-12.jpg" flags READ mode 0666
+Jul 14 09:32:06 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-2.jpg" bytes read 209377 written 0
+Jul 14 09:32:06 10.71.57.0 u87492038 [10.71.57.0|get|0|209377|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612d322e6a7067|]
+Jul 14 09:32:06 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-12.jpg" bytes read 153690 written 0
+Jul 14 09:32:06 10.71.57.0 u87492038 [10.71.57.0|get|0|153690|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612d31322e6a7067|]
+Jul 14 09:32:06 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-11.jpg" flags READ mode 0666
+Jul 14 09:32:06 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-1.jpg" flags READ mode 0666
+Jul 14 09:32:06 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-11.jpg" bytes read 107257 written 0
+Jul 14 09:32:06 10.71.57.0 u87492038 [10.71.57.0|get|0|107257|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612d31312e6a7067|]
+Jul 14 09:32:06 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-1.jpg" bytes read 451697 written 0
+Jul 14 09:32:06 10.71.57.0 u87492038 [10.71.57.0|get|0|451697|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612d312e6a7067|]
+Jul 14 09:32:06 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-10.jpg" flags READ mode 0666
+Jul 14 09:32:06 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-10.jpg" bytes read 113921 written 0
+Jul 14 09:32:06 10.71.57.0 u87492038 [10.71.57.0|get|0|113921|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d6368616c65742d76696c6c612d70697363696e612d736f6e2d666f6e742d63616c7669612d6d616c6c6f7263612d31302e6a7067|]
+Jul 14 09:32:06 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-top-960.jpg" flags READ mode 0666
+Jul 14 09:32:07 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-top-960.jpg" bytes read 120359 written 0
+Jul 14 09:32:07 10.71.57.0 u87492038 [10.71.57.0|get|1|120359|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612d746f702d3936302e6a7067|]
+Jul 14 09:32:07 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-top-767.jpg" flags READ mode 0666
+Jul 14 09:32:07 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-top-1920.jpg" flags READ mode 0666
+Jul 14 09:32:07 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-top-767.jpg" bytes read 133126 written 0
+Jul 14 09:32:07 10.71.57.0 u87492038 [10.71.57.0|get|0|133126|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612d746f702d3736372e6a7067|]
+Jul 14 09:32:07 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-top-1920.jpg" bytes read 428040 written 0
+Jul 14 09:32:07 10.71.57.0 u87492038 [10.71.57.0|get|0|428040|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612d746f702d313932302e6a7067|]
+Jul 14 09:32:07 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-9.jpg" flags READ mode 0666
+Jul 14 09:32:07 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-8.jpg" flags READ mode 0666
+Jul 14 09:32:07 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-9.jpg" bytes read 179993 written 0
+Jul 14 09:32:07 10.71.57.0 u87492038 [10.71.57.0|get|0|179993|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612d392e6a7067|]
+Jul 14 09:32:07 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-7.jpg" flags READ mode 0666
+Jul 14 09:32:07 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-8.jpg" bytes read 131941 written 0
+Jul 14 09:32:07 10.71.57.0 u87492038 [10.71.57.0|get|0|131941|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612d382e6a7067|]
+Jul 14 09:32:07 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-6.jpg" flags READ mode 0666
+Jul 14 09:32:07 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-7.jpg" bytes read 689983 written 0
+Jul 14 09:32:07 10.71.57.0 u87492038 [10.71.57.0|get|0|689983|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612d372e6a7067|]
+Jul 14 09:32:07 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-6.jpg" bytes read 149996 written 0
+Jul 14 09:32:07 10.71.57.0 u87492038 [10.71.57.0|get|0|149996|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612d362e6a7067|]
+Jul 14 09:32:07 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-5.jpg" flags READ mode 0666
+Jul 14 09:32:08 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-4.jpg" flags READ mode 0666
+Jul 14 09:32:08 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-5.jpg" bytes read 192091 written 0
+Jul 14 09:32:08 10.71.57.0 u87492038 [10.71.57.0|get|1|192091|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612d352e6a7067|]
+Jul 14 09:32:08 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-3.jpg" flags READ mode 0666
+Jul 14 09:32:08 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-4.jpg" bytes read 109093 written 0
+Jul 14 09:32:08 10.71.57.0 u87492038 [10.71.57.0|get|0|109093|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612d342e6a7067|]
+Jul 14 09:32:08 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-3.jpg" bytes read 93478 written 0
+Jul 14 09:32:08 10.71.57.0 u87492038 [10.71.57.0|get|0|93478|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612d332e6a7067|]
+Jul 14 09:32:08 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-2.jpg" flags READ mode 0666
+Jul 14 09:32:08 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-1.jpg" flags READ mode 0666
+Jul 14 09:32:08 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-2.jpg" bytes read 108100 written 0
+Jul 14 09:32:08 10.71.57.0 u87492038 [10.71.57.0|get|0|108100|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612d322e6a7067|]
+Jul 14 09:32:08 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-1.jpg" bytes read 101624 written 0
+Jul 14 09:32:08 10.71.57.0 u87492038 [10.71.57.0|get|0|101624|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612d312e6a7067|]
+Jul 14 09:32:08 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-10.jpg" flags READ mode 0666
+Jul 14 09:32:08 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-10.jpg" bytes read 211649 written 0
+Jul 14 09:32:08 10.71.57.0 u87492038 [10.71.57.0|get|0|211649|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d636173612d70697363696e612d656c2d6d6f6c696e61722d70616c6d612d64652d6d616c6c6f7263612d31302e6a7067|]
+Jul 14 09:32:08 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-14.jpg" flags READ mode 0666
+Jul 14 09:32:09 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-14.jpg" bytes read 117118 written 0
+Jul 14 09:32:09 10.71.57.0 u87492038 [10.71.57.0|get|1|117118|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612d31342e6a7067|]
+Jul 14 09:32:09 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-13.jpg" flags READ mode 0666
+Jul 14 09:32:09 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-12.jpg" flags READ mode 0666
+Jul 14 09:32:09 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-13.jpg" bytes read 105983 written 0
+Jul 14 09:32:09 10.71.57.0 u87492038 [10.71.57.0|get|0|105983|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612d31332e6a7067|]
+Jul 14 09:32:09 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-12.jpg" bytes read 73222 written 0
+Jul 14 09:32:09 10.71.57.0 u87492038 [10.71.57.0|get|0|73222|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612d31322e6a7067|]
+Jul 14 09:32:09 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-11.jpg" flags READ mode 0666
+Jul 14 09:32:09 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-9.jpg" flags READ mode 0666
+Jul 14 09:32:09 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-11.jpg" bytes read 76497 written 0
+Jul 14 09:32:09 10.71.57.0 u87492038 [10.71.57.0|get|0|76497|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612d31312e6a7067|]
+Jul 14 09:32:09 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-9.jpg" bytes read 153605 written 0
+Jul 14 09:32:09 10.71.57.0 u87492038 [10.71.57.0|get|0|153605|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612d392e6a7067|]
+Jul 14 09:32:09 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-8.jpg" flags READ mode 0666
+Jul 14 09:32:09 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-7.jpg" flags READ mode 0666
+Jul 14 09:32:09 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-8.jpg" bytes read 112745 written 0
+Jul 14 09:32:09 10.71.57.0 u87492038 [10.71.57.0|get|0|112745|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612d382e6a7067|]
+Jul 14 09:32:09 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-7.jpg" bytes read 126389 written 0
+Jul 14 09:32:09 10.71.57.0 u87492038 [10.71.57.0|get|0|126389|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612d372e6a7067|]
+Jul 14 09:32:09 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-6.jpg" flags READ mode 0666
+Jul 14 09:32:09 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-5.jpg" flags READ mode 0666
+Jul 14 09:32:10 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-6.jpg" bytes read 109387 written 0
+Jul 14 09:32:10 10.71.57.0 u87492038 [10.71.57.0|get|1|109387|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612d362e6a7067|]
+Jul 14 09:32:10 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-5.jpg" bytes read 132661 written 0
+Jul 14 09:32:10 10.71.57.0 u87492038 [10.71.57.0|get|1|132661|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612d352e6a7067|]
+Jul 14 09:32:10 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-10.jpg" flags READ mode 0666
+Jul 14 09:32:10 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-top-960.jpg" flags READ mode 0666
+Jul 14 09:32:10 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-10.jpg" bytes read 126233 written 0
+Jul 14 09:32:10 10.71.57.0 u87492038 [10.71.57.0|get|0|126233|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612d31302e6a7067|]
+Jul 14 09:32:10 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-top-960.jpg" bytes read 127032 written 0
+Jul 14 09:32:10 10.71.57.0 u87492038 [10.71.57.0|get|0|127032|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612d746f702d3936302e6a7067|]
+Jul 14 09:32:10 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-top-767.jpg" flags READ mode 0666
+Jul 14 09:32:10 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-top-1920.jpg" flags READ mode 0666
+Jul 14 09:32:10 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-top-767.jpg" bytes read 143510 written 0
+Jul 14 09:32:10 10.71.57.0 u87492038 [10.71.57.0|get|0|143510|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612d746f702d3736372e6a7067|]
+Jul 14 09:32:10 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-top-1920.jpg" bytes read 436578 written 0
+Jul 14 09:32:10 10.71.57.0 u87492038 [10.71.57.0|get|0|436578|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612d746f702d313932302e6a7067|]
+Jul 14 09:32:10 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-4.jpg" flags READ mode 0666
+Jul 14 09:32:10 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-3.jpg" flags READ mode 0666
+Jul 14 09:32:10 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-4.jpg" bytes read 102498 written 0
+Jul 14 09:32:10 10.71.57.0 u87492038 [10.71.57.0|get|0|102498|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612d342e6a7067|]
+Jul 14 09:32:10 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-3.jpg" bytes read 193658 written 0
+Jul 14 09:32:10 10.71.57.0 u87492038 [10.71.57.0|get|0|193658|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612d332e6a7067|]
+Jul 14 09:32:11 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-1.jpg" flags READ mode 0666
+Jul 14 09:32:11 10.71.57.0 u87492038 open "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-2.jpg" flags READ mode 0666
+Jul 14 09:32:11 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-1.jpg" bytes read 186172 written 0
+Jul 14 09:32:11 10.71.57.0 u87492038 [10.71.57.0|get|0|186172|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612d312e6a7067|]
+Jul 14 09:32:11 10.71.57.0 u87492038 close "/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-2.jpg" bytes read 199684 written 0
+Jul 14 09:32:11 10.71.57.0 u87492038 [10.71.57.0|get|0|199684|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612f7265666f726d612d696e74656772616c2d70656e74686f7573652d617469636f2d70697363696e612d62656e64696e61742d6d616c6c6f7263612d322e6a7067|]
+Jul 14 09:32:11 10.71.57.0 u87492038 open "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-top-960.jpg" flags READ mode 0666
+Jul 14 09:32:11 10.71.57.0 u87492038 open "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-top-767.jpg" flags READ mode 0666
+Jul 14 09:32:11 10.71.57.0 u87492038 close "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-top-960.jpg" bytes read 98769 written 0
+Jul 14 09:32:11 10.71.57.0 u87492038 [10.71.57.0|get|0|98769|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612d746f702d3936302e6a7067|]
+Jul 14 09:32:11 10.71.57.0 u87492038 close "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-top-767.jpg" bytes read 115711 written 0
+Jul 14 09:32:11 10.71.57.0 u87492038 [10.71.57.0|get|0|115711|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612d746f702d3736372e6a7067|]
+Jul 14 09:32:11 10.71.57.0 u87492038 open "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-top-1920.jpg" flags READ mode 0666
+Jul 14 09:32:11 10.71.57.0 u87492038 open "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-9.jpg" flags READ mode 0666
+Jul 14 09:32:11 10.71.57.0 u87492038 close "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-9.jpg" bytes read 136318 written 0
+Jul 14 09:32:11 10.71.57.0 u87492038 [10.71.57.0|get|0|136318|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612d392e6a7067|]
+Jul 14 09:32:11 10.71.57.0 u87492038 close "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-top-1920.jpg" bytes read 333209 written 0
+Jul 14 09:32:11 10.71.57.0 u87492038 [10.71.57.0|get|0|333209|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612d746f702d313932302e6a7067|]
+Jul 14 09:32:11 10.71.57.0 u87492038 open "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-8.jpg" flags READ mode 0666
+Jul 14 09:32:12 10.71.57.0 u87492038 open "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-7.jpg" flags READ mode 0666
+Jul 14 09:32:12 10.71.57.0 u87492038 close "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-8.jpg" bytes read 129628 written 0
+Jul 14 09:32:12 10.71.57.0 u87492038 [10.71.57.0|get|1|129628|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612d382e6a7067|]
+Jul 14 09:32:12 10.71.57.0 u87492038 close "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-7.jpg" bytes read 115019 written 0
+Jul 14 09:32:12 10.71.57.0 u87492038 [10.71.57.0|get|0|115019|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612d372e6a7067|]
+Jul 14 09:32:12 10.71.57.0 u87492038 open "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-6.jpg" flags READ mode 0666
+Jul 14 09:32:12 10.71.57.0 u87492038 open "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-5.jpg" flags READ mode 0666
+Jul 14 09:32:12 10.71.57.0 u87492038 close "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-6.jpg" bytes read 90970 written 0
+Jul 14 09:32:12 10.71.57.0 u87492038 [10.71.57.0|get|0|90970|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612d362e6a7067|]
+Jul 14 09:32:12 10.71.57.0 u87492038 close "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-5.jpg" bytes read 130487 written 0
+Jul 14 09:32:12 10.71.57.0 u87492038 [10.71.57.0|get|0|130487|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612d352e6a7067|]
+Jul 14 09:32:12 10.71.57.0 u87492038 open "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-4.jpg" flags READ mode 0666
+Jul 14 09:32:12 10.71.57.0 u87492038 open "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-3.jpg" flags READ mode 0666
+Jul 14 09:32:12 10.71.57.0 u87492038 close "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-4.jpg" bytes read 139880 written 0
+Jul 14 09:32:12 10.71.57.0 u87492038 [10.71.57.0|get|0|139880|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612d342e6a7067|]
+Jul 14 09:32:12 10.71.57.0 u87492038 open "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-1.jpg" flags READ mode 0666
+Jul 14 09:32:12 10.71.57.0 u87492038 close "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-3.jpg" bytes read 84951 written 0
+Jul 14 09:32:12 10.71.57.0 u87492038 [10.71.57.0|get|0|84951|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612d332e6a7067|]
+Jul 14 09:32:12 10.71.57.0 u87492038 close "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-1.jpg" bytes read 96138 written 0
+Jul 14 09:32:12 10.71.57.0 u87492038 [10.71.57.0|get|0|96138|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612d312e6a7067|]
+Jul 14 09:32:12 10.71.57.0 u87492038 open "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-2.jpg" flags READ mode 0666
+Jul 14 09:32:13 10.71.57.0 u87492038 close "/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-2.jpg" bytes read 114954 written 0
+Jul 14 09:32:13 10.71.57.0 u87492038 [10.71.57.0|get|1|114954|0|0|0|2f696d616765732f70726f796563746f732f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612d322e6a7067|]
+Jul 14 09:32:13 10.71.57.0 u87492038 open "/images/quienes-somos/nuestro-equipo-6.jpg" flags READ mode 0666
+Jul 14 09:32:13 10.71.57.0 u87492038 close "/images/quienes-somos/nuestro-equipo-6.jpg" bytes read 136736 written 0
+Jul 14 09:32:13 10.71.57.0 u87492038 [10.71.57.0|get|0|136736|0|0|0|2f696d616765732f717569656e65732d736f6d6f732f6e75657374726f2d65717569706f2d362e6a7067|]
+Jul 14 09:32:13 10.71.57.0 u87492038 open "/images/quienes-somos/nuestro-equipo-5.jpg" flags READ mode 0666
+Jul 14 09:32:13 10.71.57.0 u87492038 open "/images/quienes-somos/nuestro-equipo-4.jpg" flags READ mode 0666
+Jul 14 09:32:13 10.71.57.0 u87492038 close "/images/quienes-somos/nuestro-equipo-5.jpg" bytes read 146922 written 0
+Jul 14 09:32:13 10.71.57.0 u87492038 [10.71.57.0|get|0|146922|0|0|0|2f696d616765732f717569656e65732d736f6d6f732f6e75657374726f2d65717569706f2d352e6a7067|]
+Jul 14 09:32:13 10.71.57.0 u87492038 close "/images/quienes-somos/nuestro-equipo-4.jpg" bytes read 133208 written 0
+Jul 14 09:32:13 10.71.57.0 u87492038 [10.71.57.0|get|0|133208|0|0|0|2f696d616765732f717569656e65732d736f6d6f732f6e75657374726f2d65717569706f2d342e6a7067|]
+Jul 14 09:32:13 10.71.57.0 u87492038 open "/images/quienes-somos/nuestro-equipo-3.jpg" flags READ mode 0666
+Jul 14 09:32:13 10.71.57.0 u87492038 open "/images/quienes-somos/nuestro-equipo-2.jpg" flags READ mode 0666
+Jul 14 09:32:13 10.71.57.0 u87492038 close "/images/quienes-somos/nuestro-equipo-3.jpg" bytes read 163258 written 0
+Jul 14 09:32:13 10.71.57.0 u87492038 [10.71.57.0|get|0|163258|0|0|0|2f696d616765732f717569656e65732d736f6d6f732f6e75657374726f2d65717569706f2d332e6a7067|]
+Jul 14 09:32:13 10.71.57.0 u87492038 close "/images/quienes-somos/nuestro-equipo-2.jpg" bytes read 133679 written 0
+Jul 14 09:32:13 10.71.57.0 u87492038 [10.71.57.0|get|0|133679|0|0|0|2f696d616765732f717569656e65732d736f6d6f732f6e75657374726f2d65717569706f2d322e6a7067|]
+Jul 14 09:32:13 10.71.57.0 u87492038 open "/images/quienes-somos/nuestro-equipo-1.jpg" flags READ mode 0666
+Jul 14 09:32:13 10.71.57.0 u87492038 open "/images/quienes-somos/gestion-empresa-1.jpg" flags READ mode 0666
+Jul 14 09:32:14 10.71.57.0 u87492038 close "/images/quienes-somos/nuestro-equipo-1.jpg" bytes read 132081 written 0
+Jul 14 09:32:14 10.71.57.0 u87492038 [10.71.57.0|get|1|132081|0|0|0|2f696d616765732f717569656e65732d736f6d6f732f6e75657374726f2d65717569706f2d312e6a7067|]
+Jul 14 09:32:14 10.71.57.0 u87492038 close "/images/quienes-somos/gestion-empresa-1.jpg" bytes read 81060 written 0
+Jul 14 09:32:14 10.71.57.0 u87492038 [10.71.57.0|get|1|81060|0|0|0|2f696d616765732f717569656e65732d736f6d6f732f67657374696f6e2d656d70726573612d312e6a7067|]
+Jul 14 09:32:14 10.71.57.0 u87492038 open "/images/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-9.jpg" flags READ mode 0666
+Jul 14 09:32:14 10.71.57.0 u87492038 open "/images/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-8.jpg" flags READ mode 0666
+Jul 14 09:32:14 10.71.57.0 u87492038 close "/images/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-9.jpg" bytes read 137551 written 0
+Jul 14 09:32:14 10.71.57.0 u87492038 [10.71.57.0|get|0|137551|0|0|0|2f696d616765732f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612d392e6a7067|]
+Jul 14 09:32:14 10.71.57.0 u87492038 close "/images/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-8.jpg" bytes read 129628 written 0
+Jul 14 09:32:14 10.71.57.0 u87492038 [10.71.57.0|get|0|129628|0|0|0|2f696d616765732f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612d382e6a7067|]
+Jul 14 09:32:14 10.71.57.0 u87492038 open "/images/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-7.jpg" flags READ mode 0666
+Jul 14 09:32:14 10.71.57.0 u87492038 open "/images/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-6.jpg" flags READ mode 0666
+Jul 14 09:32:14 10.71.57.0 u87492038 close "/images/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-7.jpg" bytes read 115019 written 0
+Jul 14 09:32:14 10.71.57.0 u87492038 [10.71.57.0|get|0|115019|0|0|0|2f696d616765732f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612d372e6a7067|]
+Jul 14 09:32:14 10.71.57.0 u87492038 close "/images/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-6.jpg" bytes read 90970 written 0
+Jul 14 09:32:14 10.71.57.0 u87492038 [10.71.57.0|get|0|90970|0|0|0|2f696d616765732f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612d362e6a7067|]
+Jul 14 09:32:14 10.71.57.0 u87492038 open "/images/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-5.jpg" flags READ mode 0666
+Jul 14 09:32:14 10.71.57.0 u87492038 open "/images/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-4.jpg" flags READ mode 0666
+Jul 14 09:32:15 10.71.57.0 u87492038 close "/images/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-5.jpg" bytes read 130487 written 0
+Jul 14 09:32:15 10.71.57.0 u87492038 [10.71.57.0|get|1|130487|0|0|0|2f696d616765732f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612d352e6a7067|]
+Jul 14 09:32:15 10.71.57.0 u87492038 close "/images/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-4.jpg" bytes read 139880 written 0
+Jul 14 09:32:15 10.71.57.0 u87492038 [10.71.57.0|get|1|139880|0|0|0|2f696d616765732f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612d342e6a7067|]
+Jul 14 09:32:15 10.71.57.0 u87492038 open "/images/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-3.jpg" flags READ mode 0666
+Jul 14 09:32:15 10.71.57.0 u87492038 open "/images/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-1.jpg" flags READ mode 0666
+Jul 14 09:32:15 10.71.57.0 u87492038 close "/images/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-3.jpg" bytes read 84951 written 0
+Jul 14 09:32:15 10.71.57.0 u87492038 [10.71.57.0|get|0|84951|0|0|0|2f696d616765732f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612d332e6a7067|]
+Jul 14 09:32:15 10.71.57.0 u87492038 close "/images/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-1.jpg" bytes read 96138 written 0
+Jul 14 09:32:15 10.71.57.0 u87492038 [10.71.57.0|get|0|96138|0|0|0|2f696d616765732f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612d312e6a7067|]
+Jul 14 09:32:15 10.71.57.0 u87492038 open "/images/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-2.jpg" flags READ mode 0666
+Jul 14 09:32:15 10.71.57.0 u87492038 open "/logs/access.log.26.gz" flags READ mode 0666
+Jul 14 09:32:15 10.71.57.0 u87492038 close "/images/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-2.jpg" bytes read 114954 written 0
+Jul 14 09:32:15 10.71.57.0 u87492038 [10.71.57.0|get|0|114954|0|0|0|2f696d616765732f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612f7265666f726d612d6170617274616d656e746f2d6573747564696f2d63656e74726f2d686973746f7269636f2d70616c6d612d64652d6d616c6c6f7263612d322e6a7067|]
+Jul 14 09:32:15 10.71.57.0 u87492038 close "/logs/access.log.26.gz" bytes read 49360 written 0
+Jul 14 09:32:15 10.71.57.0 u87492038 [10.71.57.0|get|0|49360|0|0|0|2f6c6f67732f6163636573732e6c6f672e32362e677a|]
+Jul 14 09:32:15 10.71.57.0 u87492038 open "/logs/access.log.22.gz" flags READ mode 0666
+Jul 14 09:32:15 10.71.57.0 u87492038 open "/logs/sftp.log" flags READ mode 0666

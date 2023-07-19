@@ -1,0 +1,37 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteCond	%{HTTPS} off	
+RewriteRule	^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]	
+
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
+
+Redirect 301 /es/index.html https://www.envivir.com/
+Redirect 301 /es/ https://www.envivir.com/
+
+Redirect 301 /about-envivir.html https://www.envivir.com/quienes-somos/
+Redirect 301 /envivir-team.html https://www.envivir.com/quienes-somos/
+Redirect 301 /partners.html https://www.envivir.com/quienes-somos/
+Redirect 301 /contact.html https://www.envivir.com/contacto/
+Redirect 301 /services.html https://www.envivir.com/servicios/
+Redirect 301 /projects.html https://www.envivir.com/proyectos/
+Redirect 301 /imprint.html https://www.envivir.com/aviso-legal-privacidad-y-cookies/
+
+Redirect 301 /projects/SonServera-TerraceInsulation.html https://www.envivir.com/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/
+Redirect 301 /projects/CalaMurada-BathRenovation.html https://www.envivir.com/proyectos/diseno-reforma-bano-cala-muarada-mallorca/
+Redirect 301 /proyectos/atico-el-terreno-palma-de-mallorca/ https://www.envivir.com/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/
+Redirect 301 /proyectos/chalet-el-molinar-palma-de-mallorca/ https://www.envivir.com/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/
+Redirect 301 /proyectos/hotel-palma-de-mallorca-centro/ https://www.envivir.com/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/
+Redirect 301 /proyectos/remodelacion-habitaciones-hotel-palma-de-mallorca/ https://www.envivir.com/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/
+Redirect 301 /proyectos/hotel-cala-murada-mallorca/ https://www.envivir.com/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/
+Redirect 301 /proyectos/reforma-integral-chalet-son-font-calvia-mallorca-cd8/ https://www.envivir.com/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/
+
+Redirect 301 /proyectos/reforma-integral-chalet-el-molinar-palma-de-mallorca/ https://www.envivir.com/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/
+Redirect 301 /proyectos/reforma-integral-casa-el-molinar-palma-de-mallorca/ https://www.envivir.com/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/
+
+Redirect 301 /en/services/refurbishment-mallorca/ https://www.envivir.com/en/
+Redirect 301 /de/leistungen/generalunternehmer-baufirma-mallorca/ https://www.envivir.com/de/
+

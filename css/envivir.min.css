@@ -1,0 +1,1113 @@
+/********************************/
+/*** Global Reset ***/
+/********************************/
+*,
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+label,
+fieldset,
+input,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img {
+  border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+caption,
+th {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+a img {
+  border: none;
+}
+/********************************/
+/*** Body Layout ***/
+/********************************/
+body {
+  color: #131312;
+  font: 16px Roboto;
+  text-transform: none;
+  background-color: #fff;
+}
+p {
+  font-weight: 300;
+  padding-bottom: 2em;
+  text-align: left;
+  line-height: 1.6;
+}
+p .quote {
+  font-size: 1.5em;
+  font-style: italic;
+  line-height: 1.3;
+}
+body a,
+body a:visited,
+body a:active {
+  text-decoration: none;
+  color: #59937c;
+}
+body a:hover {
+  color: #59937c;
+}
+h1 {
+  font: 1.8em Merriweather;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-transform: none;
+  padding-bottom: 0.5em;
+}
+h2 {
+  font: 1.8em Merriweather;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-transform: none;
+  padding-bottom: 0.5em;
+  margin: auto;
+}
+/********************************/
+/*** Layout Elements ***/
+/********************************/
+.horizontal-line-container {
+  clear: both;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 960px;
+}
+.horizontal-line {
+  height: 1px;
+  border-bottom: solid #e0e0e0;
+  border-width: 1px;
+  display: block;
+  margin: 15px 15px 40px 15px;
+}
+/********************************/
+/*** Special Typo ***/
+/********************************/
+.uppercase {
+  font: 1em Roboto;
+  font-weight: 300;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #63635c;
+  margin-bottom: 0.5em;
+}
+/********************************/
+/*** HEADER ***/
+/********************************/
+header #stickybar {
+  width: 100%;
+  background: #2a2a29;
+  height: 3em;
+  position: absolute;
+  top: 0;
+  z-index: 9999;
+  font: 1em Roboto;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #fff;
+}
+header #stickybar .language,
+header #stickybar .stickybar-contact {
+  width: 49%;
+}
+header #stickybar .stickybar-contact {
+  display: inline-block;
+  text-align: right;
+}
+.stickybar-contact a:link,
+.stickybar-contact a:visited,
+.stickybar-contact a:active,
+.stickybar-contact a:hover {
+  color: #fff;
+}
+header #stickybar i {
+  margin-right: 6px;
+}
+header #stickybar ul {
+  margin-top: 0.9em;
+}
+header #stickybar li {
+  display: inline;
+  margin-right: 1em;
+}
+header #stickybar li:last-child {
+  margin-right: 0px;
+}
+/*** Header Language ***/
+.language ul li {
+  font-weight: 300;
+  font-size: 14px;
+}
+header #stickybar .language {
+  display: inline-block;
+  text-align: left;
+  font-weight: 300;
+}
+.language a:link,
+.language a:visited,
+.language a:active,
+.language a:hover {
+  text-decoration: underline;
+  color: #a4a4a4;
+}
+/*** Header Logo ***/
+header #logo {
+  position: relative;
+  padding-top: 4.2em;
+  padding-bottom: 2.5em;
+  text-align: left;
+  width: 205px;
+  z-index: 2;
+}
+header #logo img {
+  height: 207px;
+  max-width: 100%;
+  margin-right: -0.5em;
+  margin-left: -32px;
+  margin-top: -45px;
+  margin-bottom: -42px;
+  padding-bottom: 0;
+}
+
+/********************************/
+/*** Navigation ***/
+/********************************/
+#mainnav .container {
+  text-align: right;
+  z-index: 1;
+}
+#mainnav nav a,
+#mainnav nav a:visited,
+#mainnav nav a:active,
+footer a,
+footer a:visited,
+footer a:active {
+  text-decoration: none;
+  color: #131312;
+}
+#mainnav nav a:hover,
+footer a:hover {
+  color: #82827f;
+}
+#mainnav nav {
+  position: absolute;
+  width: 100%;
+  top: 7.5em;
+}
+#mainnav nav ul,
+footer .footer-secondary .footer-nav ul {
+  display: inline-block;
+  position: relative;
+  font: 1em Roboto;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+#mainnav nav ul li,
+footer .footer-secondary .footer-nav ul li {
+  display: inline;
+  margin-right: 1.5em;
+}
+#mainnav nav ul li:last-child {
+  margin-right: 0;
+}
+#mainnav nav ul li a:link,
+header nav ul li a:active,
+header nav ul li a:visited {
+  text-decoration: none;
+  transition: 0.3s;
+}
+#mainnav nav ul li a:hover {
+  color: #82827f;
+  text-decoration: none;
+}
+/********************************/
+/*** MAIN ***/
+/********************************/
+main {
+  display: block;
+  text-align: left;
+}
+/*** Container ***/
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+.container-copy {
+  max-width: 735px;
+  margin: 0 auto;
+  text-align: left;
+}
+/*** List ***/
+.container-copy ul li {
+  font-weight: 300;
+  padding-bottom: 0.5em;
+  text-align: left;
+  line-height: 1.6;
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 1.5em;
+}
+/*** Contact ***/
+.contact {
+  text-align: center;
+  margin-bottom: 5.5em;
+}
+.contact p {
+  text-align: center;
+}
+.contact i {
+  font-size: 1em;
+  margin-right: 6px;
+}
+/*** Projects ***/
+.gallery {
+  width: 100%;
+  padding-bottom: 0.7em;
+}
+/*** BG-Img Box ***/
+#bgimgbox-inicio-proyectos,
+#bgimgbox-inicio-servicios,
+#bgimgbox-inicio-equipo,
+#bgimgbox-proyecto-1,
+#bgimgbox-proyecto-2,
+#bgimgbox-proyecto-3,
+#bgimgbox-proyecto-4,
+#bgimgbox-proyecto-5,
+#bgimgbox-proyecto-6,
+#bgimgbox-proyecto-7,
+#bgimgbox-proyecto-8,
+#bgimgbox-proyecto-9,
+#bgimgbox-proyecto-10,
+#bgimgbox-proyecto-11,
+#bgimgbox-proyecto-12,
+#bgimgbox-proyecto-13,
+#bgimgbox-proyecto-14 {
+  height: 420px;
+  width: 100%;
+  background-size: 100% auto;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4em;
+}
+#bgimgbox-inicio-proyectos {
+  color: #fff;
+  background-image: url('https://www.envivir.com/images/bg-inicio-proyectos-1920.jpg');
+}
+#bgimgbox-inicio-servicios {
+  background-image: url('https://www.envivir.com/images/bg-inicio-servicios-1920.jpg');
+}
+#bgimgbox-inicio-equipo {
+  background-image: url('https://www.envivir.com/images/bg-inicio-equipo-1920.jpg');
+}
+#bgimgbox-proyecto-1 {
+  background-image: url('https://www.envivir.com/images/proyectos/aislamiento-terraza-azotea-andratx-mallorca/aislamiento-terraza-azotea-andratx-mallorca-top-1920.jpg');
+}
+#bgimgbox-proyecto-2 {
+  background-image: url('https://www.envivir.com/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/impermeabilizacion-terraza-azotea-son-servera-mallorca-top-1920.jpg');
+}
+#bgimgbox-proyecto-3 {
+  background-image: url('https://www.envivir.com/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-top-1920.jpg');
+}
+#bgimgbox-proyecto-4 {
+  background-image: url('https://www.envivir.com/images/proyectos/diseno-interior-atico-campanet-mallorca/diseno-interior-atico-campanet-mallorca-top-1920.jpg');
+}
+#bgimgbox-proyecto-5 {
+  background-image: url('https://www.envivir.com/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/reforma-renovacion-hotel-cala-murada-mallorca-top-1920.jpg');
+}
+#bgimgbox-proyecto-6 {
+  background-image: url('https://www.envivir.com/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/construccion-habitaciones-hotel-palma-de-mallorca-top-1920.jpg');
+}
+#bgimgbox-proyecto-7 {
+  background-image: url('https://www.envivir.com/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-top-1920.jpg');
+}
+#bgimgbox-proyecto-8 {
+  background-image: url('https://www.envivir.com/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-top-1920.jpg');
+}
+#bgimgbox-proyecto-9 {
+  background-image: url('https://www.envivir.com/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-top-1920.jpg');
+}
+#bgimgbox-proyecto-10 {
+  background-image: url('https://www.envivir.com/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-top-1920.jpg');
+}
+#bgimgbox-proyecto-12 {
+  background-image: url('https://www.envivir.com/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-top-1920.jpg');
+}
+#bgimgbox-proyecto-13 {
+  background-image: url('https://www.envivir.com/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-top-1920.jpg');
+}
+#bgimgbox-proyecto-14 {
+  background-image: url('https://www.envivir.com/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-top-1920.jpg');
+}
+
+/*** Teaser Section ***/
+#teaser h3 {
+  margin-bottom: 1.5em;
+}
+#teaser .teaser-wrapper {
+  position: relative;
+  display: inline-block;
+  max-width: 48%;
+  height: auto;
+  margin: 0 0 8px 0;
+}
+#teaser .teaser-spacer {
+  position: relative;
+  display: inline-block;
+  width: 1%;
+}
+#teaser img {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+#teaser a:link,
+#teaser a:visited,
+#teaser a:active,
+#teaser a:hover {
+  color: #63635c;
+  text-decoration: none;
+}
+#teaser .teaser-inner {
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 90%;
+  height: 90%;
+  padding: 5%;
+  margin: 0 auto;
+  background: rgb(2, 0, 36);
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#131312+0,131312+100&0.25+0,0+75 */
+  background: -moz-linear-gradient(
+    top,
+    rgba(19, 19, 18, 0.25) 0%,
+    rgba(19, 19, 18, 0) 75%,
+    rgba(19, 19, 18, 0) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(19, 19, 18, 0.25) 0%,
+    rgba(19, 19, 18, 0) 75%,
+    rgba(19, 19, 18, 0) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(19, 19, 18, 0.25) 0%,
+    rgba(19, 19, 18, 0) 75%,
+    rgba(19, 19, 18, 0) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40131312', endColorstr='#00131312',GradientType=0 ); /* IE6-9 */
+}
+#teaser .teaser-inner p {
+  width: 80%;
+  font: 1em Roboto;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 0.5em;
+}
+#teaser .service-wrapper {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 34%;
+  height: 220px;
+  margin: 0 0 15px 0;
+  border: 15px solid #f1f1f1;
+  outline: 2px solid #fff;
+  background: white;
+  padding: 5%;
+}
+#teaser .service-wrapper h4 {
+  font-weight: 400;
+  color: #131312;
+}
+#teaser .service-wrapper p {
+  text-align: center;
+}
+#wall .wall-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+#wall img {
+  object-fit: contain;
+  max-width: 50%;
+  max-height: auto;
+  margin: -2px;
+}
+#wall h3 {
+  margin-bottom: 1.5em;
+}
+
+/********************************/
+/*** USP List ***/
+/********************************/
+#usps h2 {
+  padding-bottom: 3em;
+}
+#usps,
+#usps p,
+#usps h2 {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+.icon {
+  margin-bottom: 1.5em;
+}
+#usps .icon {
+  height: 68px;
+}
+#usps p {
+  padding-bottom: 15px;
+}
+#usps h3 {
+  margin-bottom: 15px;
+}
+#usps section {
+  margin-bottom: 3em;
+  display: inline-block;
+  max-width: 250px;
+  height: 100%;
+  padding: 0 15px 0 15px;
+  vertical-align: top;
+}
+/********************************/
+/*** ACCREDITATIONS ***/
+/********************************/
+#accredit {
+  text-align: center;
+  margin-bottom: 3.5em;
+}
+#accredit ul li {
+  display: inline-block;
+  vertical-align: top;
+}
+#accredit ul li img {
+  max-width: 350px;
+  margin-top: 2em;
+}
+/********************************/
+/*** AVISO LEGAL ***/
+/********************************/
+.legal h3 {
+  font: 1em Roboto;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+/********************************/
+/*** Buttons ***/
+/********************************/
+.button-black,
+.button-white {
+  display: block;
+  padding: 0.8em;
+  text-align: center;
+  max-width: 275px;
+  height: 1.188em;
+  margin: 0 auto;
+  font: 1em Roboto;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.button-white {
+  border: 2px solid #fff;
+}
+.button-black {
+  border: 2px solid #131312;
+}
+.button-white a,
+.button-white a:visited,
+.button-white a:active,
+.button-white a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.button-black a,
+.button-black a:visited,
+.button-black a:active,
+.button-black a:hover {
+  text-decoration: none;
+  color: #131312;
+}
+/********************************/
+/*** Footer Copyright ***/
+/********************************/
+footer {
+  overflow: hidden;
+  text-align: center;
+}
+footer p {
+  text-align: center;
+}
+footer i {
+  margin-right: 8px;
+}
+
+footer .footer-language ul li {
+  font-weight: 300;
+  font-size: 14px;
+  display: inline-block;
+  padding-right: 9px;
+}
+footer .footer-language {
+  margin-bottom: 3em;
+  margin-top: 2em;
+}
+footer .footer-language {
+  display: none;
+}
+.footer-language a:link,
+.footer-language a:visited,
+.footer-language a:active,
+.footer-language a:hover {
+  text-decoration: underline;
+  color: #a4a4a4;
+}
+
+footer .footer-main {
+  width: 100%;
+  background: #f1f1f1;
+  padding: 1.5em 0 2em 0;
+}
+footer .footer-main p {
+  text-align: left;
+  padding-right: 50px;
+  padding-bottom: 1em;
+}
+footer .footer-main aside {
+  width: 32%;
+  text-align: left;
+  vertical-align: top;
+}
+footer .footer-main ul {
+  line-height: 2em;
+}
+footer .footer-brand,
+footer .footer-contact,
+footer .footer-follow {
+  display: inline-block;
+}
+footer .footer-brand img {
+  width: 175px;
+  margin-bottom: 0.5em;
+  margin-left: -25px;
+}
+
+footer #footer-follow-mobile {
+  width: 100%;
+  margin: 0;
+  padding-right: 8px;
+  line-height: 4.5em;
+  text-align: center;
+  margin-top: 0.3em;
+  background: transparent;
+}
+footer #footer-follow-mobile {
+  display: none;
+}
+#footer-follow-mobile a {
+  color: #ffffff;
+}
+.footer-follow-mobile-box {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #131312;
+  border: none;
+  display: inline-block;
+  line-height: 36px;
+  margin: 0 7px;
+  transition: 0.3s;
+}
+.footer-follow-mobile-box i {
+  font-size: 15px;
+  line-height: 36px;
+  margin-right: 0px;
+}
+.footer-follow-mobile-box:hover {
+  color: #fff;
+  background: #333;
+}
+
+footer .footer-secondary aside {
+  width: 100%;
+  text-align: center;
+  color: #82827f;
+  font-weight: 200;
+  padding: 1.5em 0 1em 0;
+  font-size: 14px;
+}
+footer .footer-secondary a:link,
+footer .footer-secondary a:visited,
+footer .footer-secondary a:active,
+footer .footer-secondary a:hover {
+  color: #63635c;
+  text-decoration: none;
+}
+footer .footer-copyright a:link,
+footer .footer-copyright a:visited,
+footer .footer-copyright a:active,
+footer .footer-copyright a:hover {
+  color: #82827f;
+  text-decoration: underline;
+}
+footer .footer-secondary .to-top {
+  text-transform: uppercase;
+  padding-bottom: 3em;
+}
+footer .footer-secondary .to-top i {
+  font-size: 1em;
+  margin-left: 6px;
+}
+/********************************/
+/*** Mean Menu ***/
+/********************************/
+a.meanmenu-reveal {
+  display: none;
+}
+.mean-container .mean-bar {
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 40px;
+  position: relative;
+  background: none;
+  padding: 4px 0;
+  min-height: 40px;
+  z-index: 999999;
+}
+.mean-container a.meanmenu-reveal {
+  width: 30px;
+  height: 30px;
+  padding: 17px 17px 17px 17px;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  cursor: pointer;
+  color: #111;
+  text-decoration: none;
+  text-indent: -9999em;
+  display: block;
+}
+.mean-container a.meanclose {
+  top: 0;
+}
+.mean-container a.meanmenu-reveal span {
+  display: block;
+  background: #111;
+  height: 4px;
+  margin-top: 4px;
+}
+.mean-container .mean-nav {
+  float: left;
+  width: 100%;
+  background: #111;
+  margin-top: 44px;
+}
+.mean-container .mean-nav ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  list-style-type: none;
+}
+.mean-container .mean-nav ul li {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+.mean-container .mean-nav ul li a {
+  display: block;
+  float: left;
+  width: 90%;
+  padding: 1em 5%;
+  margin: 0;
+  text-align: left;
+  color: #fff;
+  border-top: 1px solid #383838;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.mean-container .mean-nav ul li.mean-last a {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.mean-container .mean-nav ul li a:hover {
+  background: #252525;
+  background: rgba(255, 255, 255, 0.1);
+}
+.mean-container .mean-push {
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  clear: both;
+}
+.mean-container .mean-bar,
+.mean-container .mean-bar * {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.mean-remove {
+  display: none !important;
+}
+
+/*************************************************
+*	Mobile < 768	*
+*************************************************/
+@media only screen and (max-width: 767px) {
+  .container,
+  .container-copy {
+    width: 92%;
+  }
+  .mean-container .mean-bar {
+    width: 92%;
+  }
+  header #logo {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 2.2em;
+    text-align: center;
+  }
+  header #logo img {
+    height: 190px;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: -35px;
+    margin-bottom: -35px;
+  }
+
+  header #stickybar .language {
+    display: none;
+    width: 0%;
+  }
+  header #stickybar .stickybar-contact {
+    width: 100%;
+    text-align: center;
+    font-size: 0.95em;
+  }
+
+  #usps section {
+    max-width: 80%;
+  }
+  #teaser .teaser-wrapper {
+    max-width: 100%;
+    margin: 0 0 15px 0;
+  }
+  #teaser .teaser-spacer {
+    display: none;
+  }
+  #teaser .service-wrapper {
+    width: 80%;
+    margin: 0 0 20px 0;
+    height: 240px;
+  }
+
+  #wall img {
+    min-width: 100%;
+    max-height: auto;
+    display: block;
+  }
+
+  h1 {
+    font: 1.4em Merriweather;
+    font-weight: 700;
+  }
+  h2 {
+    font: 1.4em Merriweather;
+    font-weight: 700;
+  }
+
+  header #stickybar li {
+    margin-right: 1em;
+  }
+
+  #bgimgbox-inicio-proyectos,
+  #bgimgbox-inicio-servicios,
+  #bgimgbox-inicio-equipo {
+    width: 100%;
+    background-size: auto 100%;
+  }
+  #bgimgbox-proyecto-1,
+  #bgimgbox-proyecto-2,
+  #bgimgbox-proyecto-3,
+  #bgimgbox-proyecto-4,
+  #bgimgbox-proyecto-5,
+  #bgimgbox-proyecto-6,
+  #bgimgbox-proyecto-7,
+  #bgimgbox-proyecto-8,
+  #bgimgbox-proyecto-9,
+  #bgimgbox-proyecto-10,
+  #bgimgbox-proyecto-11,
+  #bgimgbox-proyecto-12,
+  #bgimgbox-proyecto-13,
+  #bgimgbox-proyecto-14 {
+    width: 100%;
+    background-size: cover;
+  }
+
+  #bgimgbox-inicio-proyectos {
+    height: 460px;
+    background-image: url('https://www.envivir.com/images/bg-inicio-proyectos-767.jpg');
+  }
+  #bgimgbox-inicio-servicios {
+    height: 520px;
+    background-image: url('https://www.envivir.com/images/bg-inicio-servicios-767.jpg');
+  }
+  #bgimgbox-inicio-equipo {
+    height: 340px;
+    background-image: url('https://www.envivir.com/images/bg-inicio-equipo-767.jpg');
+  }
+
+  #bgimgbox-proyecto-1 {
+    height: 390px;
+    background-image: url('https://www.envivir.com/images/proyectos/aislamiento-terraza-azotea-andratx-mallorca/aislamiento-terraza-azotea-andratx-mallorca-top-767.jpg');
+  }
+  #bgimgbox-proyecto-2 {
+    height: 390px;
+    background-image: url('https://www.envivir.com/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/impermeabilizacion-terraza-azotea-son-servera-mallorca-top-767.jpg');
+  }
+  #bgimgbox-proyecto-3 {
+    height: 390px;
+    background-image: url('https://www.envivir.com/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-top-767.jpg');
+  }
+  #bgimgbox-proyecto-4 {
+    height: 390px;
+    background-image: url('https://www.envivir.com/images/proyectos/diseno-interior-atico-campanet-mallorca/diseno-interior-atico-campanet-mallorca-top-767.jpg');
+  }
+  #bgimgbox-proyecto-5 {
+    height: 390px;
+    background-image: url('https://www.envivir.com/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/reforma-renovacion-hotel-cala-murada-mallorca-top-767.jpg');
+  }
+  #bgimgbox-proyecto-6 {
+    height: 390px;
+    background-image: url('https://www.envivir.com/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/construccion-habitaciones-hotel-palma-de-mallorca-top-767.jpg');
+  }
+  #bgimgbox-proyecto-7 {
+    height: 390px;
+    background-image: url('https://www.envivir.com/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-top-767.jpg');
+  }
+  #bgimgbox-proyecto-8 {
+    height: 390px;
+    background-image: url('https://www.envivir.com/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-top-767.jpg');
+  }
+  #bgimgbox-proyecto-9 {
+    height: 390px;
+    background-image: url('https://www.envivir.com/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-top-767.jpg');
+  }
+  #bgimgbox-proyecto-10 {
+    height: 390px;
+    background-image: url('https://www.envivir.com/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-top-767.jpg');
+  }
+  #bgimgbox-proyecto-12 {
+    height: 390px;
+    background-image: url('https://www.envivir.com/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-top-767.jpg');
+  }
+  #bgimgbox-proyecto-13 {
+    height: 390px;
+    background-image: url('https://www.envivir.com/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-top-767.jpg');
+  }
+  #bgimgbox-proyecto-14 {
+    height: 390px;
+    background-image: url('https://www.envivir.com/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-top-767.jpg');
+  }
+
+  footer .footer-main p {
+    text-align: center;
+    padding-right: 0;
+  }
+  footer .footer-main aside {
+    width: 100%;
+    text-align: center;
+  }
+  footer .footer-main .footer-contact .uppercase,
+  footer .footer-follow,
+  footer .footer-secondary .footer-nav {
+    display: none;
+  }
+  footer .footer-main .footer-contact {
+    padding-top: 0;
+  }
+  footer .footer-main .footer-contact a {
+    line-height: 2.5em;
+  }
+  footer .footer-language-copyright aside {
+    width: 100%;
+    padding: 25px 0px 25px 0px;
+  }
+  footer .footer-language-copyright .copyright {
+    display: block;
+  }
+  footer .footer-language-copyright .copyright p {
+    text-align: center;
+  }
+  footer #footer-follow-mobile,
+  footer .footer-language {
+    display: block;
+  }
+}
+
+/*************************************************
+*	Tablet 768 - 960	*
+*************************************************/
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+  .container,
+  .container-copy {
+    width: 93%;
+  }
+  .mean-container .mean-bar {
+    width: 93%;
+  }
+  #usps section {
+    max-width: 200px;
+  }
+  h1 {
+    font: 1.6em Merriweather;
+    font-weight: 700;
+  }
+  h2 {
+    font: 1.6em Merriweather;
+    font-weight: 700;
+  }
+  #mainnav nav ul,
+  footer .footer-secondary .footer-nav ul {
+    font-size: 0.925em;
+  }
+
+  #bgimgbox-inicio-proyectos {
+    height: 400px;
+    background-image: url('https://www.envivir.com/images/bg-inicio-proyectos-960.jpg');
+  }
+  #bgimgbox-inicio-servicios {
+    height: 420px;
+    background-image: url('https://www.envivir.com/images/bg-inicio-servicios-960.jpg');
+  }
+  #bgimgbox-inicio-equipo {
+    height: 380px;
+    background-image: url('https://www.envivir.com/images/bg-inicio-equipo-960.jpg');
+  }
+
+  #bgimgbox-proyecto-1 {
+    height: 420px;
+    background-image: url('https://www.envivir.com/images/proyectos/aislamiento-terraza-azotea-andratx-mallorca/aislamiento-terraza-azotea-andratx-mallorca-top-960.jpg');
+  }
+  #bgimgbox-proyecto-2 {
+    height: 420px;
+    background-image: url('https://www.envivir.com/images/proyectos/impermeabilizacion-terraza-azotea-son-servera-mallorca/impermeabilizacion-terraza-azotea-son-servera-mallorca-top-960.jpg');
+  }
+  #bgimgbox-proyecto-3 {
+    height: 420px;
+    background-image: url('https://www.envivir.com/images/proyectos/diseno-reforma-bano-cala-muarada-mallorca/diseno-reforma-bano-cala-muarada-mallorca-top-960.jpg');
+  }
+  #bgimgbox-proyecto-4 {
+    height: 420px;
+    background-image: url('https://www.envivir.com/images/proyectos/diseno-interior-atico-campanet-mallorca/diseno-interior-atico-campanet-mallorca-top-960.jpg');
+  }
+  #bgimgbox-proyecto-5 {
+    height: 420px;
+    background-image: url('https://www.envivir.com/images/proyectos/reforma-renovacion-hotel-cala-murada-mallorca/reforma-renovacion-hotel-cala-murada-mallorca-top-960.jpg');
+  }
+  #bgimgbox-proyecto-6 {
+    height: 420px;
+    background-image: url('https://www.envivir.com/images/proyectos/construccion-habitaciones-hotel-palma-de-mallorca/construccion-habitaciones-hotel-palma-de-mallorca-top-960.jpg');
+  }
+  #bgimgbox-proyecto-7 {
+    height: 420px;
+    background-image: url('https://www.envivir.com/images/proyectos/reforma-integral-atico-campanet-mallorca/reforma-integral-atico-campanet-mallorca-top-960.jpg');
+  }
+  #bgimgbox-proyecto-8 {
+    height: 420px;
+    background-image: url('https://www.envivir.com/images/proyectos/reforma-integral-atico-el-terreno-palma-de-mallorca/reforma-integral-atico-el-terreno-palma-de-mallorca-top-960.jpg');
+  }
+  #bgimgbox-proyecto-9 {
+    height: 420px;
+    background-image: url('https://www.envivir.com/images/proyectos/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca/reforma-integral-casa-piscina-el-molinar-palma-de-mallorca-top-960.jpg');
+  }
+  #bgimgbox-proyecto-10 {
+    height: 420px;
+    background-image: url('https://www.envivir.com/images/proyectos/reforma-integral-atico-el-toro-mallorca/reforma-integral-atico-el-toro-mallorca-top-960.jpg');
+  }
+  #bgimgbox-proyecto-12 {
+    height: 420px;
+    background-image: url('https://www.envivir.com/images/proyectos/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca/reforma-integral-chalet-villa-piscina-son-font-calvia-mallorca-top-960.jpg');
+  }
+  #bgimgbox-proyecto-13 {
+    height: 420px;
+    background-image: url('https://www.envivir.com/images/proyectos/reforma-integral-penthouse-atico-piscina-bendinat-mallorca/reforma-integral-penthouse-atico-piscina-bendinat-mallorca-top-960.jpg');
+  }
+  #bgimgbox-proyecto-14 {
+    height: 420px;
+    background-image: url('https://www.envivir.com/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-top-960.jpg');
+  }
+}
