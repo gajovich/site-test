@@ -854,7 +854,7 @@ a.meanmenu-reveal {
 .swiper-button-next,
 .swiper-button-prev {
   position: absolute;
-  top: var(--swiper-navigation-top-offset, 40%);
+  top: var(--swiper-navigation-top-offset, 43%);
 }
 
 .galery__container {
