@@ -865,8 +865,26 @@ a.meanmenu-reveal {
   max-width: 900px;
   margin-bottom: 50px;
 }
-.galery__slide img {
-  width: 100%;
+.galery__slide {
+  height: 526px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.galery__slide-1 {
+  background-image: url(http://www.envivir.com/images/quienes-somos/team-slider-1-1920.jpg);
+}
+.galery__slide-2 {
+  background-image: url(http://www.envivir.com/images/quienes-somos/team-slider-2-1920.jpg);
+}
+.galery__slide-3 {
+  background-image: url(http://www.envivir.com/images/quienes-somos/team-slider-3-1920.jpg);
+}
+.galery__slide-4 {
+  background-image: url(http://www.envivir.com/images/quienes-somos/team-slider-4-1920.jpg);
+}
+.galery__slide-5 {
+  background-image: url(http://www.envivir.com/images/quienes-somos/team-slider-5-1920.jpg);
 }
 
 /*************************************************
@@ -1077,6 +1095,27 @@ a.meanmenu-reveal {
   footer .footer-language {
     display: block;
   }
+
+  .galery__slide-1 {
+    height: 390px;
+    background-image: url(http://www.envivir.com/images/quienes-somos/team-slider-1-767.jpg);
+  }
+  .galery__slide-2 {
+    height: 390px;
+    background-image: url(http://www.envivir.com/images/quienes-somos/team-slider-2-767.jpg);
+  }
+  .galery__slide-3 {
+    height: 390px;
+    background-image: url(http://www.envivir.com/images/quienes-somos/team-slider-3-767.jpg);
+  }
+  .galery__slide-4 {
+    height: 390px;
+    background-image: url(http://www.envivir.com/images/quienes-somos/team-slider-4-767.jpg);
+  }
+  .galery__slide-5 {
+    height: 390px;
+    background-image: url(http://www.envivir.com/images/quienes-somos/team-slider-5-767.jpg);
+  }
 }
 
 /*************************************************
@@ -1171,5 +1210,26 @@ a.meanmenu-reveal {
   #bgimgbox-proyecto-14 {
     height: 420px;
     background-image: url("https://www.envivir.com/images/proyectos/reforma-apartamento-estudio-centro-historico-palma-de-mallorca/reforma-apartamento-estudio-centro-historico-palma-de-mallorca-top-960.jpg");
+  }
+
+  .galery__slide-1 {
+    height: 420px;
+    background-image: url(http://www.envivir.com/images/quienes-somos/team-slider-1-960.jpg);
+  }
+  .galery__slide-2 {
+    height: 420px;
+    background-image: url(http://www.envivir.com/images/quienes-somos/team-slider-2-960.jpg);
+  }
+  .galery__slide-3 {
+    height: 420px;
+    background-image: url(http://www.envivir.com/images/quienes-somos/team-slider-3-960.jpg);
+  }
+  .galery__slide-4 {
+    height: 420px;
+    background-image: url(http://www.envivir.com/images/quienes-somos/team-slider-4-960.jpg);
+  }
+  .galery__slide-5 {
+    height: 420px;
+    background-image: url(http://www.envivir.com/images/quienes-somos/team-slider-5-960.jpg);
   }
 }
