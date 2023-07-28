@@ -33,7 +33,8 @@
       href="https://fonts.googleapis.com/css?family=Merriweather:300,700|Roboto:300,400,500,600,700"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://www.envivir.com/css/envivir.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/envivir.min.css" />
     <link
       href="https://www.envivir.com/font-awesome-4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
@@ -73,9 +74,7 @@
       <div class="container">
         <div id="logo">
           <a href="https://www.envivir.com/"
-            ><img
-              alt="Logo ENVIVIR PROYECTOS Y OBRAS en Mallorca"
-              src="https://www.envivir.com/images/logo-envivir.png"
+            ><img alt="Logo ENVIVIR PROYECTOS Y OBRAS en Mallorca" src="images/logo-envivir.png"
           /></a>
         </div>
       </div>
@@ -99,8 +98,15 @@
     <!-- Nav End //-->
 
     <!-- Content //-->
-    <main>
-      <article id="bgimgbox-inicio-proyectos"></article>
+    <main class="main-page">
+      <!-- <article id="bgimgbox-inicio-proyectos"></article> -->
+
+      <div class="main__slider swiper" style="margin-bottom: 4em">
+        <div class="main__wrapper swiper-wrapper">
+          <div class="main__slide main__slide-1 swiper-slide"></div>
+          <div class="main__slide main__slide-2 swiper-slide"></div>
+        </div>
+      </div>
 
       <article style="margin-bottom: 5em">
         <div class="container-copy">
@@ -432,7 +438,8 @@
       </div>
     </footer>
     <!-- Footer End //-->
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="../scripts/slider.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="./scripts/jquery.meanmenu.js"></script>
     <script>
